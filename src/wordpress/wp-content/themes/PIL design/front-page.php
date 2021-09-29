@@ -14,7 +14,10 @@
     <img class="fleche-bas" src="" alt="fleche-bas">
     <h1><?php the_field('punch_line_home'); ?></h1>
     <img src="" alt="bureaux pole image">
+    <? get_header(); ?>
 
+    <? get_footer(); ?>
 </body>
+
 
 </html>

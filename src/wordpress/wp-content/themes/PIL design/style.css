@@ -5,3 +5,16 @@
 * Author URI: https://github.com/StephanieAn
 * Version: 1.0
 */
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing: 0;
+}
+.header{
+    background-color: black;
+}
+.header__img{
+    background-color: white;
+    color: black;
+}
