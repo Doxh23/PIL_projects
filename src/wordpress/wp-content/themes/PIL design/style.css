@@ -8,13 +8,13 @@
 
 *{
  margin:0;
- padding:0;
+ padding:1rem;
  box-sizing: 0;
 }
 .header{
     background-color: black;
 }
-.header__img{
+/* .header__img{
     background-color: white;
     color: black;
-}
+} */

@@ -10,8 +10,11 @@
 <body>
    <header class="header">
         <div class="header__img ">
-            
-            <img class="style-svg" src="" alt="Logo du PIL">
+            <? if(function_exists('the_custom_logo')){
+                $custom_logo_id = get_theme_mod('custom_logo');
+                $logo = wp_get_attachment_image_src($custom_logo_id);
+            }?>
+            <img src="http://localhost/wordpress/wp-content/uploads/2021/09/logo-1.svg" alt="">
        </div>
        <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
        <?php ?>
