@@ -1,3 +1,11 @@
+@charset "UTF-8";
+/*
+* Theme Name: PIL
+* Description: design du Pole Imade Liège
+* Author: Adrien Peters, Naim Zian, Stéphanie Antignac, Zoé Ranzy
+* Author URI: https://github.com/StephanieAn
+* Version: 1.0
+*/
 html,
 body,
 div,
@@ -116,12 +124,14 @@ q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after {
+blockquote:before,
+blockquote:after {
   content: "";
   content: none;
 }
 
-q:before, q:after {
+q:before,
+q:after {
   content: "";
   content: none;
 }
