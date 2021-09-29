@@ -10,20 +10,18 @@
 <body>
    <header class="header">
         <div class="header__img ">
-            <? if(function_exists('the_custom_logo')){
-                $custom_logo_id = get_theme_mod('custom_logo');
-                $logo = wp_get_attachment_image_src($custom_logo_id);
-            }?>
             <img src="http://localhost/wordpress/wp-content/uploads/2021/09/logo-1.svg" alt="">
        </div>
        <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
        <?php ?>
    </header>
+   <main>
+    <div class="border-right"></div>
     <aside class="social__nav">
-        <ul>
-            <li>Fb</li>
-            <li>Tw</li>
-            <li>Lk</li>
-            <li>In</li>
+        <ul class="social_nav__ul">
+            <li class="social_nav__li"><a href="http://www.facebook.com">Fb</a></li>
+            <li class="social_nav__li"><a href="http://www.twitter.com">Tw</a></li>
+            <li class="social_nav__li"><a href="http://www.linkedin.com">Lk</a></li>
+            <li class="social_nav__li"><a href="http://www.intagram.com">In</a></li>
         </ul>
     </aside>
