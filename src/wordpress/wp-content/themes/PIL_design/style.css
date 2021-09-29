@@ -92,8 +92,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -107,38 +106,43 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol,
 ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote,
 q {
-  quotes: none;
-}
+  quotes: none; }
 
-blockquote:before,
-blockquote:after {
+blockquote:before, blockquote:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
-q:before,
-q:after {
+q:before, q:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
+
+footer {
+  display: flex;
+  background-color: green; }
+  footer h3 {
+    font-weight: 900; }
+  footer a {
+    text-decoration: none;
+    color: inherit; }
+  footer div {
+    border-top: solid gray 1px; }
+
+.footer-left {
+  border-right: gray solid 1px; }
 
 /*# sourceMappingURL=style.css.map */
