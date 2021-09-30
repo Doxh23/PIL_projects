@@ -131,18 +131,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-footer {
+footer .foot {
   display: flex;
-  background-color: green; }
-  footer h3 {
-    font-weight: 900; }
-  footer a {
-    text-decoration: none;
-    color: inherit; }
-  footer div {
-    border-top: solid gray 1px; }
-
-.footer-left {
-  border-right: gray solid 1px; }
+  justify-content: center; }
+footer .border {
+  order: 1; }
+footer a {
+  text-decoration: none;
+  color: inherit; }
+footer .footer-right {
+  flex-grow: 1.1; }
+footer .footer-left {
+  flex-grow: 1;
+  margin-right: 0.5rem; }
+  footer .footer-left h3 {
+    font-weight: 500;
+    font-size: 1.25rem; }
+  footer .footer-left .tel {
+    float: right;
+    width: 12.5rem;
+    height: 12.5rem;
+    line-height: 12.5rem;
+    border: #4b4b4b solid 0.0625rem;
+    border-radius: 50%;
+    text-align: center; }
+footer .footer-right {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-content: space-between; }
+  footer .footer-right .smalls {
+    display: flex;
+    align-self: flex-end;
+    color: #4b4b4b;
+    font-weight: 200; }
+    footer .footer-right .smalls .small-right a {
+      color: white; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,16 +1,48 @@
 footer {
-    display: flex;
-    h3 {
-        font-weight: 500;
+    .foot {
+        display: flex;
+        justify-content: center;
+    }
+    .border {
+        order: 1;
     }
     a {
         text-decoration: none;
         color: inherit;
     }
-    div {
-        border-top: solid gray 1px;
+    .footer-right {
+        flex-grow: 1.1;
     }
     .footer-left {
-        border-right: gray solid 1px;
+        flex-grow: 1;
+        h3 {
+            font-weight: 500;
+            font-size: 1.25rem;
+        }
+        .tel {
+            float: right;
+            width: 12.5rem;
+            height: 12.5rem;
+            line-height: 12.5rem;
+            border: $lightgray solid 0.0625rem;
+            border-radius: 50%;
+            text-align: center;
+        }
+        margin-right: 0.5rem;
+    }
+    .footer-right {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-content: space-between;
+        .smalls {
+            display: flex;
+            align-self: flex-end;
+            color: $lightgray;
+            font-weight: 200;
+            .small-right a {
+                color: white;
+            }
+        }
     }
 }
