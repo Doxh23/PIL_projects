@@ -7,6 +7,7 @@ body{
     background-color black;
     border-bottom: 1px solid #4b4b4b;
     display: flex;
+    /*flex-direction: ;*/
 
     img{
         padding: 0.6rem;
@@ -17,7 +18,7 @@ body{
         padding-left: 5rem;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         font-size: 0.9rem;
     }
     .menu-item a{

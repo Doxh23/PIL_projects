@@ -124,14 +124,12 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after {
+blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-q:before,
-q:after {
+q:before, q:after {
   content: "";
   content: none;
 }
@@ -139,6 +137,60 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  background-color: black;
+  position: relative;
+}
+
+.header {
+  position: absolute background-color black;
+  border-bottom: 1px solid #4b4b4b;
+  display: flex;
+  /*flex-direction: ;*/
+}
+.header img {
+  padding: 0.6rem;
+  background-color: white;
+  color: black;
+}
+.header .menu-menu-des-pages-container {
+  padding-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.9rem;
+}
+.header .menu-item a {
+  color: white;
+  text-decoration: none;
+}
+.header .menu-item a:visited {
+  color: white;
+}
+
+.social__nav {
+  position: absolute;
+  height: auto;
+  padding: 25rem 1rem 1rem 1rem;
+  width: 4rem;
+  border-right: 1px solid #4b4b4b;
+  border-bottom: 1px solid #4b4b4b;
+  list-style-type: none;
+}
+.social__nav .social_nav__ul {
+  padding: 1rem;
+}
+.social__nav .social_nav__li {
+  padding: 0.5rem;
+}
+.social__nav .social_nav__li a {
+  color: white;
+  text-decoration: none;
+}
+.social__nav .social_nav__li a:visited {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
