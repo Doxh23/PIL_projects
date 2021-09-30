@@ -3,7 +3,9 @@
 function register_assets()
 {
     wp_register_style('style', get_stylesheet_uri('style.css'));
+    wp_enqueue_style('fonts', get_template_directory_uri() . '/resources/fonts/II Vorkurs/stylesheet.css', NULL, microtime(), 'all');
     wp_enqueue_style('style');
+
     wp_register_script('LogoAnim', './JS/script.js');
     wp_enqueue_script('LogoAnim');
 }

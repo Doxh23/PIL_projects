@@ -139,19 +139,28 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: "Vorkurs";
-  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+html {
+  font-size: 16px;
+  font-family: "II Vorkurs";
 }
+
 .sectionOne {
   background-color: black;
+  overflow-x: hidden;
+}
+
+.punch-line {
+  margin-top: 12rem;
+  font-size: 5.62rem;
+  color: white;
+  margin-left: 10rem;
+  width: auto;
 }
 
 .bureaux-PI {
-  top: 519px;
-  left: 262px;
-  width: 1658px;
-  height: 668px;
+  margin-top: 32rem;
+  margin-left: 16rem;
+  width: 100rem;
   opacity: 0.72;
 }
 
