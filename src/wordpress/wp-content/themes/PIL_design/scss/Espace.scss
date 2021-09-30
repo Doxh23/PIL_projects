@@ -1,26 +1,74 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
-.espace-titre{
-    display: flex;
+.espace-titre {
+  display: flex;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  width: 100vw;
+  height: 40.43rem;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 5.6rem;
+    text-align: center;
+  }
+}
+.test {
+  overflow-x: hidden;
+  img {
     width: 100vw;
-    height: 647px;
-    justify-content: center;
-    align-items: center;
-    h1{
-        font-size: 90px;
-        text-align: center;
-    }
-}
-.test{
-    overflow-x: hidden;
-    img{
-        width: 100vw;
-    }
+  }
 }
 .espace-mask-group {
-    overflow-x: hidden;
-    img{
-        width: 100vw;
-    }
+  overflow-x: hidden;
+  img {
+    width: 100vw;
+  }
+}
+.espace-rubrique {
+  width: 100vw;
+  height: 47.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  h2 {
+    font-size: 5.6rem;
+    margin-bottom: 1.875rem;
+  }
+}
+.espace-reserver {
+  width: 28.1875rem;
+  display: flex;
+  flex-direction: column;
+  p {
+    line-height: 3rem;
+  }
+}
+.img-espace-reserver {
+  width: 16.375rem;
+  font-size: 1.25rem;
+  height: 2.9375rem;
+  justify-content: center;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 26px;
+  text-decoration: none;
+  &:visited{
+      color: inherit;
+
+  }
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+.espace-production{
+    background-color: $second-color;
+    height: 2000px;
+}
+.nos-productions{
+    height: 49.125rem;
 }
