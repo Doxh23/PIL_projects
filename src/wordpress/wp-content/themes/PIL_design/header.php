@@ -16,7 +16,6 @@
        <?php ?>
    </header>
    <main>
-    <div class="border-right"></div>
     <aside class="social__nav">
         <ul class="social_nav__ul">
             <li class="social_nav__li"><a href="http://www.facebook.com">Fb</a></li>
