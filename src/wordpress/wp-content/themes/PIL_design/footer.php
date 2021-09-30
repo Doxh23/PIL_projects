@@ -1,3 +1,4 @@
+</main>
 <footer>
     <? wp_footer();?>
 </footer>

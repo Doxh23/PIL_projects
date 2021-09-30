@@ -1,12 +1,16 @@
 body{
-    background-color: black;
     position: relative;
+    height: 2500px;
 }
 .header{
-    position: absolute
-    background-color black;
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: black;
     border-bottom: 1px solid #4b4b4b;
     display: flex;
+
     /*flex-direction: ;*/
 
     img{
@@ -20,6 +24,7 @@ body{
         align-items: center;
         justify-content: space-around;
         font-size: 0.9rem;
+       
     }
     .menu-item a{
         color: white;
@@ -33,7 +38,6 @@ body{
 
 
 .social__nav{
-    position: absolute;
     height: auto;
     padding: 25rem 1rem 1rem 1rem;
     width: 4rem;
