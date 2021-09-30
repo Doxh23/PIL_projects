@@ -1,0 +1,26 @@
+body {
+    overflow-x: hidden;
+}
+.espace-titre{
+    display: flex;
+    width: 100vw;
+    height: 647px;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 90px;
+        text-align: center;
+    }
+}
+.test{
+    overflow-x: hidden;
+    img{
+        width: 100vw;
+    }
+}
+.espace-mask-group {
+    overflow-x: hidden;
+    img{
+        width: 100vw;
+    }
+}
