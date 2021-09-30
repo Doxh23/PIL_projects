@@ -2,7 +2,7 @@
     <hr class="border">
     <div class="foot">
         <div class="footer-left">
-            <h3>Pôle Image<br>de Liège</h3>
+            <p class="big-txt">Pôle Image<br>de Liège</p>
             <a class="tel" href="tel:+3242396901">+32 4 239 69 01</a>
             <p><a href="mailto:info@lepole.be">info@lepole.be</a><br>
             Rue de Mulhouse, 36<br>
@@ -10,7 +10,7 @@
         </div>
         <hr>
         <div class="footer-right">
-            <ul>
+            <ul class="big-txt">
                 <li><a href="">Les entreprises</a></li>
                 <li><a href="">Nos espaces</a></li>
                 <li><a href="">Le Pôle</a></li>

@@ -133,20 +133,21 @@ table {
 
 footer .foot {
   display: flex;
-  justify-content: center; }
-footer .border {
-  order: 1; }
+  justify-content: center;
+  height: 18.75rem; }
+footer hr {
+  border: #4b4b4b solid 0.0625rem; }
 footer a {
   text-decoration: none;
   color: inherit; }
-footer .footer-right {
-  flex-grow: 1.1; }
+footer .big-txt {
+  font-weight: 500;
+  font-size: 1.25rem; }
+  footer .big-txt a:hover {
+    color: #8121e0; }
 footer .footer-left {
   flex-grow: 1;
   margin-right: 0.5rem; }
-  footer .footer-left h3 {
-    font-weight: 500;
-    font-size: 1.25rem; }
   footer .footer-left .tel {
     float: right;
     width: 12.5rem;
@@ -156,16 +157,20 @@ footer .footer-left {
     border-radius: 50%;
     text-align: center; }
 footer .footer-right {
+  flex-grow: 1.1;
   display: flex;
   height: 100%;
   flex-direction: column;
   align-content: space-between; }
   footer .footer-right .smalls {
     display: flex;
-    align-self: flex-end;
+    justify-content: space-between;
     color: #4b4b4b;
     font-weight: 200; }
     footer .footer-right .smalls .small-right a {
       color: white; }
+
+img {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
