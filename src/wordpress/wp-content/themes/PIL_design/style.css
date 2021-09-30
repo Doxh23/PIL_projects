@@ -124,14 +124,12 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after {
+blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-q:before,
-q:after {
+q:before, q:after {
   content: "";
   content: none;
 }
@@ -139,6 +137,23 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+@font-face {
+  font-family: Aguafina Script-Regular;
+  src: url(http://test-site.com/wp-content/themes/twentynineteen/fonts/AguafinaScript-Regular.ttf);
+  font-weight: normal;
+}
+.sectionOne {
+  background-color: black;
+}
+
+.bureaux-PI {
+  top: 519px;
+  left: 262px;
+  width: 1658px;
+  height: 668px;
+  opacity: 0.72;
 }
 
 /*# sourceMappingURL=style.css.map */
