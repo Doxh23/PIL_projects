@@ -1,19 +1,24 @@
+$border: $lightgray solid 0.0625rem;
 footer {
-    width: 90%;
+    width: 85%;
     margin: auto;
+    color: white;
+    p {
+        //BE WHITE PLEASE
+        //IM BEGGING YOU
+        color: white;
+    }
     .foot {
         display: flex;
         justify-content: center;
-    }
-    hr {
-        border: $lightgray solid 0.0625rem;
+        border-top: $border;
     }
     a {
         text-decoration: none;
-        color: inherit;
+        color: white;
     }
     .big-txt {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1.25rem;
         a:hover {
             color: $main-color;
@@ -22,31 +27,41 @@ footer {
     .footer-left {
         flex-grow: 1;
         height: 21.875rem;
+        margin-top: 4rem;
+        margin-right: 6rem;
         .tel {
-            float: right;
-            width: 15.625rem;
-            height: 15.625rem;
-            line-height: 15.625rem;
-            border: $lightgray solid 0.0625rem;
+            align-self: flex-end;
+            width: 14rem;
+            height: 14rem;
+            line-height: 14rem;
+            border: $border;
             border-radius: 50%;
             text-align: center;
-            margin-right: 3.125rem;
         }
-        margin-right: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .footer-right {
-        flex-grow: 1.1;
+        border-left: $border;
+        flex-grow: 1.2;
         height: 21.875rem;
-        ul {
-            padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        ul {    
+            margin-left: 6rem;
+            margin-top: 3rem;
             li {
-                padding-top: 1rem;
+                margin-top: 1rem;
             }
         }
         .smalls {
+            margin-left: 6rem;
             display: flex;
             justify-content: space-between;
             color: $lightgray;
+            //WHY DON'T YOU TAKE THE FUCKING FONT WEIGHT
             font-weight: 200;
             .small-right a {
                 color: white;
@@ -54,7 +69,8 @@ footer {
         }
     }
 }
-//à effacer avant final push
+//delete before final push
 img {
     display: none;
 }
+//need to add responsive

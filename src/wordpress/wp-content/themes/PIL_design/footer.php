@@ -1,5 +1,4 @@
 <footer>
-    <hr class="border">
     <div class="foot">
         <div class="footer-left">
             <p class="big-txt">Pôle Image<br>de Liège</p>
@@ -8,7 +7,6 @@
             Rue de Mulhouse, 36<br>
             4020 Liège, Belgique</p>
         </div>
-        <hr>
         <div class="footer-right">
             <ul class="big-txt">
                 <li><a href="">Les entreprises</a></li>
