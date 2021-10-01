@@ -1,8 +1,9 @@
 footer {
+    width: 90%;
+    margin: auto;
     .foot {
         display: flex;
         justify-content: center;
-        height: 18.75rem;
     }
     hr {
         border: $lightgray solid 0.0625rem;
@@ -20,23 +21,28 @@ footer {
     }
     .footer-left {
         flex-grow: 1;
+        height: 21.875rem;
         .tel {
             float: right;
-            width: 12.5rem;
-            height: 12.5rem;
-            line-height: 12.5rem;
+            width: 15.625rem;
+            height: 15.625rem;
+            line-height: 15.625rem;
             border: $lightgray solid 0.0625rem;
             border-radius: 50%;
             text-align: center;
+            margin-right: 3.125rem;
         }
         margin-right: 0.5rem;
     }
     .footer-right {
         flex-grow: 1.1;
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        align-content: space-between;
+        height: 21.875rem;
+        ul {
+            padding-left: 2rem;
+            li {
+                padding-top: 1rem;
+            }
+        }
         .smalls {
             display: flex;
             justify-content: space-between;
