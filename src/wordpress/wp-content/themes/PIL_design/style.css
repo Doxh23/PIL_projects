@@ -133,7 +133,7 @@ table {
 
 footer {
   width: 85%;
-  margin: auto;
+  margin: 1rem auto 0rem;
   color: white; }
   footer p {
     color: white; }
@@ -152,7 +152,6 @@ footer {
   footer .footer-left {
     flex-grow: 1;
     height: 21.875rem;
-    margin-top: 4rem;
     margin-right: 6rem;
     display: flex;
     flex-direction: column;
@@ -173,10 +172,11 @@ footer {
     flex-direction: column;
     justify-content: space-between; }
     footer .footer-right ul {
-      margin-left: 6rem;
-      margin-top: 3rem; }
+      margin-left: 6rem; }
       footer .footer-right ul li {
-        margin-top: 1rem; }
+        margin-bottom: 1rem; }
+      footer .footer-right ul li:last-child {
+        margin-bottom: 0rem; }
     footer .footer-right .smalls {
       margin-left: 6rem;
       display: flex;

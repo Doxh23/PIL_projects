@@ -1,7 +1,7 @@
 $border: $lightgray solid 0.0625rem;
 footer {
     width: 85%;
-    margin: auto;
+    margin: 1rem auto 0rem;
     color: white;
     p {
         //BE WHITE PLEASE
@@ -27,7 +27,6 @@ footer {
     .footer-left {
         flex-grow: 1;
         height: 21.875rem;
-        margin-top: 4rem;
         margin-right: 6rem;
         .tel {
             align-self: flex-end;
@@ -51,10 +50,12 @@ footer {
         justify-content: space-between;
         ul {    
             margin-left: 6rem;
-            margin-top: 3rem;
             li {
-                margin-top: 1rem;
-            }
+                margin-bottom: 1rem;
+              }
+              li:last-child {
+               margin-bottom: 0rem;
+              }
         }
         .smalls {
             margin-left: 6rem;
