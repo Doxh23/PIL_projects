@@ -1,25 +1,30 @@
-$border: $lightgray solid 0.0625rem;
+$border-default: $lightgray solid 0.0625rem;
+//rgba not valid on all browser, need alt
+$border: rgba(255, 255, 255, .8) solid 0.0625rem;
 footer {
     width: 85%;
     margin: 1rem auto 0rem;
-    color: white;
+    color: #ffffff;
+    font-size: 0.9375rem;
     p {
         //BE WHITE PLEASE
         //IM BEGGING YOU
-        color: white;
+        color: #ffffff;
     }
     .foot {
         display: flex;
         justify-content: center;
+        border-top: $border-default;
         border-top: $border;
     }
     a {
         text-decoration: none;
-        color: white;
+        color: #ffffff;
     }
     .big-txt {
         font-weight: 600;
         font-size: 1.25rem;
+        padding-top: 3rem;
         a:hover {
             color: $main-color;
         }
@@ -30,9 +35,10 @@ footer {
         margin-right: 6rem;
         .tel {
             align-self: flex-end;
-            width: 14rem;
-            height: 14rem;
-            line-height: 14rem;
+            width: 12rem;
+            height: 12rem;
+            line-height: 12rem;
+            border: $border-default;
             border: $border;
             border-radius: 50%;
             text-align: center;
@@ -42,6 +48,7 @@ footer {
         justify-content: space-between;
     }
     .footer-right {
+        border-left: $border-default;
         border-left: $border;
         flex-grow: 1.2;
         height: 21.875rem;
@@ -51,10 +58,10 @@ footer {
         ul {    
             margin-left: 6rem;
             li {
-                margin-bottom: 1rem;
+                padding-bottom: 1rem;
               }
               li:last-child {
-               margin-bottom: 0rem;
+               padding-bottom: 0rem;
               }
         }
         .smalls {
@@ -65,7 +72,7 @@ footer {
             //WHY DON'T YOU TAKE THE FUCKING FONT WEIGHT
             font-weight: 200;
             .small-right a {
-                color: white;
+                color: #ffffff;
             }
         }
     }
