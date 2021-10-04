@@ -8,7 +8,8 @@ function register_assets()
 
     wp_register_script('LogoAnim', './JS/script.js');
     wp_enqueue_script('LogoAnim');
-    
+
+    wp_enqueue_script('video-hover', get_theme_file_uri('./js/video-hover.js'), null, microtime(), true);
 }
 
 //appeller la liaison entre css et php
@@ -38,4 +39,3 @@ function add_file_types_to_uploads($file_types)
     return $file_types;
 }
 add_filter('upload_mimes', 'add_file_types_to_uploads');
-
