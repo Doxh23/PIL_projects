@@ -1,4 +1,4 @@
-$border-default: $lightgray solid 0.0625rem;
+$border-default: lightgray solid 0.0625rem;
 //rgba not valid on all browser, need alt
 $border: rgba(255, 255, 255, .8) solid 0.0625rem;
 footer {
@@ -68,7 +68,7 @@ footer {
             margin-left: 6rem;
             display: flex;
             justify-content: space-between;
-            color: $lightgray;
+            color: lightgray;
             //WHY DON'T YOU TAKE THE FUCKING FONT WEIGHT
             font-weight: 200;
             .small-right a {
