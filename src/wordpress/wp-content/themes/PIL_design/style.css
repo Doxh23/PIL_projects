@@ -1,10 +1,10 @@
 /* Error: Undefined variable.
- *    ,
- * 90 |       color: $bcg-color;
- *    |              ^^^^^^^^^^
- *    '
- *   src/wordpress/wp-content/themes/PIL_design/scss/Espace.scss 90:14  @import
- *   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 6:9    root stylesheet */
+ *     ,
+ * 113 |   background-color: $second-color;
+ *     |                     ^^^^^^^^^^^^^
+ *     '
+ *   src/wordpress/wp-content/themes/PIL_design/scss/Espace.scss 113:21  @import
+ *   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 6:9     root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 90 \2502        color: $bcg-color;\a    \2502               ^^^^^^^^^^\a    \2575 \a   src/wordpress/wp-content/themes/PIL_design/scss/Espace.scss 90:14  @import\a   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 6:9    root stylesheet";
+  content: "Error: Undefined variable.\a     \2577 \a 113 \2502    background-color: $second-color;\a     \2502                      ^^^^^^^^^^^^^\a     \2575 \a   src/wordpress/wp-content/themes/PIL_design/scss/Espace.scss 113:21  @import\a   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 6:9     root stylesheet";
 }

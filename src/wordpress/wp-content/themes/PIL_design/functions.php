@@ -10,6 +10,8 @@ function register_assets()
     wp_enqueue_script('LogoAnim');
 
     wp_enqueue_script('video-hover', get_theme_file_uri('./js/video-hover.js'), null, microtime(), true);
+    wp_enqueue_script('moving-text', get_theme_file_uri('./js/moving-text.js'), null, microtime(), true);
+
 }
 
 //appeller la liaison entre css et php
