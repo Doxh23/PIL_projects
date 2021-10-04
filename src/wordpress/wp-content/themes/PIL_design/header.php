@@ -7,7 +7,7 @@
     <title> Le Pole Image de Liège</title>
     <?php wp_head();?>
 </head>
-<body>
+<body  <?php body_class(); ?>>
    <header class="header">
         <div class="header__img ">
             <img src="http://localhost/wordpress/wp-content/uploads/2021/09/logo-1.svg" alt="">
