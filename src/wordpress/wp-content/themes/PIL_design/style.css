@@ -1,11 +1,59 @@
-@charset "UTF-8";
 /*
-* Theme Name: PIL
-* Description: design du Pole Imade Liège
-* Author: Adrien Peters, Naim Zian, Stéphanie Antignac, Zoé Ranzy
-* Author URI: https://github.com/StephanieAn
-* Version: 1.0
+Error: File to import not found or unreadable: archive.scss.
+        on line 9 of src/wordpress/wp-content/themes/PIL_design/scss/screen.scss
+
+4: @import "home-section-2.scss";
+5: @import "header.scss";
+6: @import "Espace";
+7: @import "listes-home.scss";
+8: @import "footer.scss";
+9: @import "archive.scss";
+10: @import "moving-text.scss";
+
+Backtrace:
+src/wordpress/wp-content/themes/PIL_design/scss/screen.scss:9
+/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:67:in `rescue in import'
+/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:44:in `import'
+/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:28:in `imported_file'
+/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:37:in `css_import?'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:310:in `visit_import'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:443:in `on_file_changed'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:320:in `block in watch'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
 */
+<<<<<<< HEAD
 html,
 body,
 div,
@@ -565,3 +613,9 @@ footer .footer-right .smalls .small-right a {
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: archive.scss.\A         on line 9 of src/wordpress/wp-content/themes/PIL_design/scss/screen.scss\A \A 4: @import \"home-section-2.scss\";\A 5: @import \"header.scss\";\A 6: @import \"Espace\";\A 7: @import \"listes-home.scss\";\A 8: @import \"footer.scss\";\A 9: @import \"archive.scss\";\A 10: @import \"moving-text.scss\";"; }
+>>>>>>> 9613a0445e4ad01679e9ebb177d5eae46157fc79

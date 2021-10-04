@@ -1,7 +1,8 @@
-$border-default: lightgray solid 0.0625rem;
+$border-default: $grey3 solid 0.0625rem;
 //rgba not valid on all browser, need alt
 $border: rgba(255, 255, 255, .8) solid 0.0625rem;
 footer {
+    background-color: $second-black;
     width: 85%;
     margin: 1rem auto 0rem;
     color: #ffffff;
@@ -26,7 +27,7 @@ footer {
         font-size: 1.25rem;
         padding-top: 3rem;
         a:hover {
-            color: $main-color;
+            color: $yellow;
         }
     }
     .footer-left {
@@ -68,7 +69,7 @@ footer {
             margin-left: 6rem;
             display: flex;
             justify-content: space-between;
-            color: lightgray;
+            color: $grey3;
             //WHY DON'T YOU TAKE THE FUCKING FONT WEIGHT
             font-weight: 200;
             .small-right a {
