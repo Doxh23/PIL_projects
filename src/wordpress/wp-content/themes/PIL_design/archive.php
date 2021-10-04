@@ -17,14 +17,12 @@
         $email_ent = get_sub_field('email_entreprise');
         $telephone_ent = get_sub_field('telephone_entreprise');
         $site_web_ent = get_sub_field('site_web_entreprise');
-        $taxonomie_ent = get_sub_field('taxonomie_entreprise');?>
+        ?>
         <div class="secteur__entreprise">
                 <h2><?= $titre_ent?></h2>
-                <h6>
-                        <?if(has_category()) : while(has_category()) : has_category();?>
-                        <? var_dump($taxonomie_ent);?>
-                        <? endwhile; endif; ?>
-                </h6>
+                <?php foreach(get_sub_field('taxonomie_entreprise') as $data){ ?>
+                        <h6> <?php echo $data;?></h6>
+                <? }?>
                 <button class="secteur__accordion"><img src="http://localhost/wordpress/wp-content/uploads/2021/09/arrow-down.svg" alt="button flèche vers le bas"></button>
                 <div class="secteur__panel">
                         <img src="<?= $image_ent?>" alt="<? echo $titre_ent?>">
