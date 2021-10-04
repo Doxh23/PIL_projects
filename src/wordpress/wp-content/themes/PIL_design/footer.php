@@ -11,12 +11,12 @@
         <div class="footer-right">
             <ul class="big-txt">
                 <li><a href="">Les entreprises</a></li>
-                <li><a href="">Nos espaces</a></li>
+                <li><a href="page-espace.php">Nos espaces</a></li>
                 <li><a href="">Le Pôle</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
             <div class="smalls">
-                <small class="small-left">Le Pôle Image © 2021.<br><a href="politique-de-confidentialite">Politique de confidentialité</a></small>
+                <small class="small-left">Le Pôle Image © 2021.<br><a href="http://localhost/wordpress/index.php/politique-de-confidentialite/">Politique de confidentialité</a></small>
                 <small class="small-right">Design by <a href="https://savoirfaire.digital/en/">savoirfaire.digital</a><br>Coding by <a href="https://becode.org/">becode.org</a></small>
             </div>
         </div>
