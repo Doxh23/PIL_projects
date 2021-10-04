@@ -373,9 +373,29 @@ body {
   flex-direction: column;
   margin: auto;
 }
-.secteur-accordion button {
+.secteur-accordion .accordions-button {
   width: 72.708vw;
+  height: 8.4375rem;
   margin: auto;
+  display: flex;
+  background-color: transparent;
+  border: 1px solid black;
+  border-bottom: 1px solid rgba(65, 51, 51, 0.6);
+  justify-content: space-between;
+}
+.secteur-accordion .accordions-button .accordeons-plus {
+  display: flex;
+  align-items: center;
+  font-size: 5.625rem;
+}
+.secteur-accordion .accordions-button .titre-accordions {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.secteur-accordion .accordions-button .titre-accordions h3 {
+  font-size: 5.625rem;
+  color: #ffffff;
 }
 
 .content-accord {
@@ -616,23 +636,16 @@ footer .footer-right .smalls .small-right a {
   width: 350px;
   height: 250px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .section-moving-text {
-  height: 5000px;
+  height: 500px;
   overflow-x: hidden;
-  background-color: lightgreen;
-  background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+  background-color: rosybrown;
   background-size: 100vw 100vh;
   background-attachment: fixed;
   color: #ffffff;
 }
 
-.moving-text {
+#moving-text {
   padding: 0;
   margin: 0;
   position: fixed;

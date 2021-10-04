@@ -32,30 +32,39 @@
 
 
 </div>
+<?php if (have_rows('repeater_accordion')): ?>
+<?php while(have_rows('repeater_accordion')): the_row(); ?>
 <div class="secteur-accordion">
-<button>secteur 1</button>
+
+<button class="accordions-button"> <div class="titre-accordions"><h3><?php the_sub_field('titre_accordions_espace')
+;?></h3></div>
+<div class="accordeons-plus">+</div>
+</button>
 <div class="content-accord">
 <div class="text-accord">
 
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit vitae, placeat totam quo inventore cum?</p>
+<p><?php the_sub_field('texte_accordeons_espace')  ?></p>
 </div>
+
 <div class="liste-espace">
-    <h3>Lorem, ipsum dolor.</h3>
-    <ul>
+    
+    <h3><?php    the_sub_field('petit_titre_accordeons_espace')?></h3>
+    <?php if(have_rows('list_accordeons_espace')) : ?>
+        <ul>
+            <?php while(have_rows('list_accordeons_espace')):the_row() ?>
+            <li> + <?php the_sub_field('el_list_accordeons') ?></li>
+        
+       <?php endwhile ?>
+       </ul> <?php endif?>
+</div>
+</div>
+</div>
+    <?php endwhile;endif ?>
+  
 
-    <li>test1</li>
-    <li>test1</li>
-    <li>test1</li>
-    <li>test1</li>
-    <li>test1</li>
-    <li>test1</li>
-    </ul>
-</div>
-</div>
 
 
-</div>
-</div>
+
 
 
 

@@ -1,3 +1,4 @@
+
 let text1 = document.querySelector('moving-text');
 
 document.addEventListener('scroll', function(){
