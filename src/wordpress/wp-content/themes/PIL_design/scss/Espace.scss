@@ -13,10 +13,14 @@ body {
     text-align: center;
   }
 }
-.test {
+.img-espace {
+  display: flex;
+  margin: auto;
   overflow-x: hidden;
   img {
-    width: 100vw;
+    width: 72.08vw;
+    margin: auto;
+    margin-bottom: 8rem;
   }
 }
 .espace-mask-group {
@@ -67,8 +71,71 @@ body {
 }
 .espace-production{
     background-color: $second-color;
-    height: 2000px;
+   
+  
 }
 .nos-productions{
-    height: 49.125rem;
+  display: flex;
+  align-items:flex-end;
+  flex-direction: row;
+  height: 49.125rem;
+  width: 72.708vw;
+  margin: auto;
+  .title-production{
+    margin-bottom: 10.156rem;
+    text-align: left;
+
+  }
+    h2{
+      color: $bcg-color;
+      font-size: 5.625rem;
+
+    }
+    .text-production{
+      text-align: left;
+      margin-bottom: 10.156rem;
+      width: 40.83vw;
+
+
+    }
+    p{
+      color: $bcg-color;
+      font-size: 1.25rem;
+      letter-spacing: 0.4px;
+      line-height: 35px;
+      width: 70%;
+
+
+    }
+}
+
+.secteur-accordion{
+  background-color: $second-color;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  button{
+    width: 72.708vw;
+    margin: auto;
+  }
+}
+.content-accord{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 72.708vw;
+  margin: auto;
+  margin-top: 7.06rem;
+  ul{
+    columns: 2;
+  }
+}
+.text-accord{
+  width: 24.47vw;
+  p{
+    color: $bcg-color;
+  }
+}
+.liste-espace{
+  color: $bcg-color;
 }

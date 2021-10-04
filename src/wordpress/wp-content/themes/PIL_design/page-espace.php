@@ -20,22 +20,44 @@
 
 <div class="espace-production">
 <div class="nos-productions">
+    <div class="title-production">
 <h2>Nos outils de production</h2>
+</div>
+<div class="text-production">
+
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quam voluptatibus possimus ducimus numquam aliquid temporibus rerum ab qui a.</p>
 </div>
-<div class="test"><img src="http://localhost/wordpress/wp-content/uploads/2021/09/Image-63@2x.jpg" alt=""></div>
+</div>
+<div class="img-espace"><img src="http://localhost/wordpress/wp-content/uploads/2021/09/Image-63@2x.jpg" alt=""></div>
 
 
 </div>
-<div>
+<div class="secteur-accordion">
+<button>secteur 1</button>
+<div class="content-accord">
+<div class="text-accord">
 
-<div class="accordeons"></div>
-<div class="accordeons"></div>
-<div class="accordeons"></div>
-<div class="accordeons"></div>
-<div class="accordeons"></div>
-<div class="accordeons"></div>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit vitae, placeat totam quo inventore cum?</p>
 </div>
-<div></div>
+<div class="liste-espace">
+    <h3>Lorem, ipsum dolor.</h3>
+    <ul>
+
+    <li>test1</li>
+    <li>test1</li>
+    <li>test1</li>
+    <li>test1</li>
+    <li>test1</li>
+    <li>test1</li>
+    </ul>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+
 
 <? get_footer(); ?>
