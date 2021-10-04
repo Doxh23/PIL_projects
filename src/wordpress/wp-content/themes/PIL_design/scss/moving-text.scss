@@ -1,28 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   
   .section-moving-text {
-    height: 5000px;
+    height: 500px;
     overflow-x: hidden;
-    background-color: lightgreen;
-    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+    background-color: rosybrown;
     background-size: 100vw 100vh;
-    background-attachment: fixed;
     color: #ffffff;
+
   }
   
-  .moving-text {
+ #moving-text {
     padding: 0;
     margin: 0;
     // border: 1px solid #000;
-    position: fixed;
     text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
     font-size: 5em;
+
   }

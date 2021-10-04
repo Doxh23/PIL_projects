@@ -55,6 +55,6 @@
     </div>
 </section>
 <section class= "section-moving-text">
-<p class="moving-text"><?php the_field('grand_texte'); ?></p>
+<p id="moving-text"><?php the_field('grand_texte'); ?></p>
 </section>
 <? get_footer(); ?>
