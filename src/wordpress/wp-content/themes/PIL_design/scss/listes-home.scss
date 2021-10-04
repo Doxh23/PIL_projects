@@ -1,0 +1,64 @@
+.introduction-section {
+  background-color: black;
+}
+
+.introduction {
+  font-size: 34px;
+  color: $white;
+  max-width: 22%;
+  margin-left: 13rem;
+}
+
+.listes-container {
+  display: flex;
+  justify-content: space-between;
+}
+.liste_1_home {
+  max-width: 85%;
+  font-size: 18px;
+  margin-left: 10%;
+  opacity: 0.72;
+  color: $white;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.liste_2 {
+  max-width: 85%;
+
+  font-size: 18px;
+  margin-left: 10%;
+  opacity: 0.72;
+  color: $white;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 3rem;
+}
+.li-1 {
+  padding-left: 1em;
+  text-indent: -1em;
+  line-height: 1.7;
+}
+.titre {
+  font-size: 24px;
+  color: $white;
+  margin-bottom: 30px;
+}
+
+.li-2 {
+  padding-left: 1em;
+  text-indent: -1em;
+  line-height: 1.7;
+}
+
+.li-2:before {
+  content: "+";
+  padding-right: 5px;
+  color: $yellow;
+}
+.li-1:before {
+  content: "+";
+  padding-right: 5px;
+  color: $yellow;
+}

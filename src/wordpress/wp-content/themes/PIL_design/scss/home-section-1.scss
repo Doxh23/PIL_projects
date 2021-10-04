@@ -9,17 +9,18 @@
   overflow-x: hidden;
 }
 .punch-line {
-  margin-top: 12rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+
   font-size: 5.62rem;
   color: white;
-  margin-left: 10rem;
-  width: auto;
+  margin-left: 13rem;
+  width: 60%;
 }
 
 .bureaux-PI {
-  margin-left: 16rem;
+  margin-left: 13rem;
   width: 100vw;
-  opacity: 0.72;
 }
 .image-fleche {
   margin-top: 2rem;
@@ -32,4 +33,24 @@
   border: 0.5px solid rgba(255, 255, 255, 0.5);
   border-radius: 10rem;
   padding: 5rem;
+}
+#box {
+  position: relative;
+}
+#tooltip {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #ffc33b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#box:hover #tooltip {
+  opacity: 1;
 }
