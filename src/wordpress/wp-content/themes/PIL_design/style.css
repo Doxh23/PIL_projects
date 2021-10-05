@@ -593,4 +593,67 @@ footer {
   white-space: nowrap;
   font-size: 5em; }
 
+.pole-top-banner {
+  display: flex;
+  flex-direction: column;
+  background: #171717; }
+  .pole-top-banner h2 {
+    font-size: 5.625rem; }
+  .pole-top-banner .texte-top-banner {
+    display: flex;
+    flex-direction: row;
+    height: 1096px;
+    margin-left: 13.64vw; }
+    .pole-top-banner .texte-top-banner .titre-top-banner {
+      display: flex;
+      align-items: center;
+      color: white; }
+    .pole-top-banner .texte-top-banner .para-top-banner {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 7rem;
+      font-size: 24px;
+      color: white; }
+
+.member-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 452px);
+  grid-auto-rows: minmax(543px, 1fr);
+  grid-gap: 20px; }
+
+.member {
+  display: flex;
+  position: relative;
+  background: #ffc33b;
+  justify-content: center;
+  align-items: center; }
+  .member img {
+    width: 452px;
+    height: 543px;
+    position: absolute;
+    top: 0%;
+    left: 0%; }
+
+.member:hover > img {
+  display: none; }
+
+.donnee-member {
+  width: 350px;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.name {
+  margin-left: 50px;
+  margin-top: 58px;
+  font-size: 34px; }
+
+.role {
+  margin-left: 50px;
+  margin-bottom: 58px;
+  font-size: 24px; }
+  .role p {
+    margin: 10px; }
+
 /*# sourceMappingURL=style.css.map */
