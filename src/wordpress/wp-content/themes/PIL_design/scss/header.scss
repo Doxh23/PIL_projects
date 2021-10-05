@@ -1,58 +1,58 @@
-body{
-    position: relative;
-    height: 2500px;
+body {
+  position: relative;
+  height: 2500px;
 }
-.header{
-    position:fixed;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    border-bottom: 1px solid #4b4b4b;
+.header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #4b4b4b;
+  display: flex;
+
+  img {
+    padding: 0.6rem;
+    background-color: white;
+    color: black;
+  }
+  .menu-menu-des-pages-container {
+    padding-left: 5rem;
     display: flex;
-    
-    img{
-        padding: 0.6rem;
-        background-color: white;
-        color: black;
-    }
-    .menu-menu-des-pages-container{
-        padding-left: 5rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 0.9rem;
-       
-    }
-    .menu-item a{
-        color: white;
-        text-decoration: none;
-    }
-    .menu-item a:visited{
-        color: white;
-    }
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.9rem;
+  }
+  .menu-item a {
+    color: white;
+    text-decoration: none;
+  }
+  .menu-item a:visited {
+    color: white;
+  }
 }
 
-.social__nav{
-    position: fixed;
-    height: auto;
-    padding: 26rem 1rem 1rem 1rem;
-    width: 6rem;
-    border-right: 1px solid #4b4b4b;
-    border-bottom: 1px solid #4b4b4b;
-    list-style-type: none;
+.social__nav {
+  position: fixed;
+  height: auto;
+  padding: 26rem 1rem 1rem 1rem;
+  width: 6rem;
+  border-right: 1px solid #4b4b4b;
+  border-bottom: 1px solid #4b4b4b;
+  list-style-type: none;
+  z-index: 2;
 
-    .social_nav__ul{
-        padding: 1rem;
-    }
-    .social_nav__li{
-        padding: 0.5rem;
-    }
-    .social_nav__li a {
-        color: white;
-        text-decoration: none;
-    }
-    .social_nav__li a:visited{
-        color: white;
-    }
-} 
+  .social_nav__ul {
+    padding: 1rem;
+  }
+  .social_nav__li {
+    padding: 0.5rem;
+  }
+  .social_nav__li a {
+    color: white;
+    text-decoration: none;
+  }
+  .social_nav__li a:visited {
+    color: white;
+  }
+}
