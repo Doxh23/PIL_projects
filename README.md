@@ -38,7 +38,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![lien vers le site à ajouter][product-screenshot]](https://example.com)
+<!-- link to site to add -->
+[![lepole.be][product-screenshot]](https://example.com)
 
 This project was made during a [BeCode](https://becode.org/) formation, and was used as a learning experience for the developpers.
 
@@ -60,9 +61,9 @@ Project Link: [https://github.com/StephanieAn/PIL_project](https://github.com/St
 
 Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac)
 
-Naim Zian - [github](https://github.com/Naim350Z) - [linkedin]()
+Naim Zian - [github](https://github.com/Naim350Z) - [linkedin](https://www.linkedin.com/in/naimzian/)
 
-Adrien Péters - [github](https://github.com/Doxh23) - [linkedin]()
+Adrien Péters - [github](https://github.com/Doxh23) - [linkedin](https://www.linkedin.com/in/adrien-p%C3%A9ters-7183181ba/)
 
 Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.linkedin.com/in/z-m-ranzy/)
 
