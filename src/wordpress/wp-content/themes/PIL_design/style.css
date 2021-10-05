@@ -236,9 +236,8 @@ body {
 
 .social__nav {
   position: fixed;
-  height: auto;
   padding: 26rem 1rem 1rem 1rem;
-  width: 6rem;
+  width: 4rem;
   border-right: 1px solid #4b4b4b;
   border-bottom: 1px solid #4b4b4b;
   list-style-type: none;
@@ -586,7 +585,7 @@ footer .footer-right .smalls .small-right a {
   margin-left: 5rem;
 }
 .droite .screen-reader-text {
-  background-color: #212121;
+  background-color: #212121 !important;
 }
 .droite .screen-reader-text #s {
   background-color: #171717;
@@ -602,40 +601,58 @@ footer .footer-right .smalls .small-right a {
 .droite .secteur__entreprise {
   margin: 1rem;
 }
-.droite .secteur__entreprise .secteur__titre {
+.droite .secteur__entreprise .secteur__accordion {
+  margin-top: 2rem;
+  width: 50rem;
+  padding-bottom: 0.5rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  border-bottom: 1px solid #4b4b4b;
-}
-.droite .secteur__entreprise .secteur__titre .secteur__taxo {
-  display: flex;
-}
-.droite .secteur__entreprise .secteur__titre .secteur__taxo h2 {
-  font-size: 3rem;
-}
-.droite .secteur__entreprise .secteur__titre .secteur__taxo h6 {
-  margin: 0 0.5rem 0 0.5rem;
-  padding: 0.5rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #4b4b4b;
-  border-radius: 15px;
-}
-.droite .secteur__entreprise .secteur__titre .secteur__button {
-  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
-}
-.droite .secteur__entreprise .secteur__titre .secteur__button .secteur__accordion {
-  position: right;
   background-color: #171717;
   border: none;
+  border-bottom: 1px solid #4b4b4b;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__titre {
+  display: flex;
+  color: white;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__titre h2 {
+  font-size: 3rem;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__titre h6 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #4b4b4b;
+  border-radius: 20px;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__btn {
+  transform: none;
+}
+.droite .secteur__entreprise .secteur__panel {
+  margin: 2.5rem 0rem 2.5rem 0rem;
+  display: none;
+  overflow: hidden;
+  gap: 10rem;
 }
 .droite .secteur__entreprise .secteur__panel .secteur__img {
   width: 350px;
   height: 250px;
 }
+.droite .secteur__entreprise .secteur__panel h6 {
+  display: flex;
+  padding-bottom: 1rem;
+}
+.droite .secteur__entreprise .secteur__panel h6 a {
+  color: #ffc33b;
+  text-decoration: none;
+}
+.droite .secteur__entreprise .secteur__panel p {
+  opacity: 0.4;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
 .section-moving-text {
   height: 500px;
   overflow-x: hidden;
