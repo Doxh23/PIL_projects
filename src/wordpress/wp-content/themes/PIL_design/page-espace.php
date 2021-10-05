@@ -2,16 +2,16 @@
 
 
 <div class="espace-titre"><h1>
-    espace et outils <br>de production
+    <?php  the_field('text_banner_espace') ?>
 </h1></div>
-<div class="espace-mask-group"><img src="http://localhost/wordpress/wp-content/uploads/2021/09/Mask-Group-79@2x.jpg" alt=""></div>
+<div class="espace-mask-group"><img src="<?php echo get_field('image_espace')['sizes']['large']?>" alt=""></div>
 <div class="espace-rubrique">
     <div class="espace-titre-auxiliaire">
-<h2>Nos Espaces</h2>
-<p>Des espaces polyvalents de 15 à 1000m²</p>
+<h2><?php   the_field('left_title_espace') ?></h2>
+<p> <?php  the_field('left_text_espace')   ?></p>
 </div>
 <div class="espace-reserver">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nam impedit sed accusamus modi ea.</p>
+    <p><?php the_field('texte_wysiwyg') ?></p>
     <a class="img-espace-reserver" href="">reservez vos places  <img src="http://localhost/wordpress/wp-content/uploads/2021/09/add.svg" alt=""></a></div>
 
 
@@ -25,10 +25,11 @@
 </div>
 <div class="text-production">
 
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quam voluptatibus possimus ducimus numquam aliquid temporibus rerum ab qui a.</p>
+<p><?php  the_field('introduction_production')?></p>
 </div>
 </div>
-<div class="img-espace"><img src="http://localhost/wordpress/wp-content/uploads/2021/09/Image-63@2x.jpg" alt=""></div>
+<div class="img-espace"><img src="<?php echo get_field('image_productions')['sizes']['large']   ?>" alt=""></div>
+
 
 
 </div>
@@ -65,6 +66,12 @@
     </div>
     </div>
   
+    <div class="spintch">
+        <div class="contenue-spintch">
+        <h4><?php   the_field('petit_titre_cta','options')  ?></h4>
+        <h2><?php   the_field('grand_titre_cta','options')?></h2>
+        </div>
+    </div>
 
 
 

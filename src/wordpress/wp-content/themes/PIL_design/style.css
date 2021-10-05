@@ -204,12 +204,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    mix-blend-mode: normal; }
   .header .menu-item a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    mix-blend-mode: normal; }
   .header .menu-item a:visited {
-    color: white; }
+    color: white;
+    mix-blend-mode: normal; }
 
 .social__nav {
   position: fixed;
@@ -218,7 +221,8 @@ body {
   width: 6rem;
   border-right: 1px solid #4b4b4b;
   border-bottom: 1px solid #4b4b4b;
-  list-style-type: none; }
+  list-style-type: none;
+  mix-blend-mode: normal; }
   .social__nav .social_nav__ul {
     padding: 1rem; }
   .social__nav .social_nav__li {
@@ -374,6 +378,23 @@ body {
 
 .liste-espace {
   color: #ffffff; }
+
+.spintch {
+  background: url("resources/images/Mask Group 93@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 41.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white; }
+  .spintch .contenue-spintch {
+    margin-left: 13.59vw;
+    max-width: 924px; }
+    .spintch .contenue-spintch h2 {
+      font-size: 3.125rem; }
+    .spintch .contenue-spintch h3 {
+      font-size: 1.5rem; }
 
 .introduction-section {
   background-color: black; }

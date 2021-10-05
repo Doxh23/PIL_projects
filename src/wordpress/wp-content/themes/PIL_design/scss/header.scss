@@ -22,14 +22,17 @@ body{
         align-items: center;
         justify-content: space-around;
         font-size: 0.9rem;
+        mix-blend-mode: normal;
        
     }
     .menu-item a{
         color: white;
         text-decoration: none;
+        mix-blend-mode: normal;
     }
     .menu-item a:visited{
         color: white;
+        mix-blend-mode: normal;
     }
 }
 
@@ -41,6 +44,7 @@ body{
     border-right: 1px solid #4b4b4b;
     border-bottom: 1px solid #4b4b4b;
     list-style-type: none;
+    mix-blend-mode: normal;
 
     .social_nav__ul{
         padding: 1rem;
