@@ -57,4 +57,35 @@
 <section id= "section-moving-text">
 <p id="moving-text"><?php the_field('grand_texte'); ?></p>
 </section>
+
+
+<section class="formation">
+<div class="image-formation">
+<img class="imgForma" src="<?php $image2 = get_field('image_formation');
+ echo $image2['sizes']['large'];  ?>">
+ </div>
+ <div class="texte-formation">
+<p class="titre_formation"><?php the_field('titre_formation'); ?></p>
+<p class="introduction_formation"><?php the_field('introduction_formation'); ?></p>
+<p class="textes_formation"><?php the_field('texte_formation'); ?></p>
+<li class="listeforma"><?php the_field('listeforma'); ?></li>
+
+
+<?php
+if (have_rows('liste_formation')) : ?>
+
+    <ul class="liste_formation">
+        <?php while (have_rows('liste_formation')) : the_row();
+        ?>
+            <li class="lifo"><?php the_sub_field('listeforma');?></li>
+        <?php endwhile; ?>
+    </ul>
+<?php endif; ?>
+ </div>
+
+</section>
+
+
+
+
 <? get_footer(); ?>
