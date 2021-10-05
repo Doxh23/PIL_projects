@@ -38,11 +38,11 @@ body{
 
 .social__nav{
     position: fixed;
-    height: auto;
+    // height: auto;
     padding: 26rem 1rem 1rem 1rem;
-    width: 6rem;
-    border-right: 1px solid #4b4b4b;
-    border-bottom: 1px solid #4b4b4b;
+    width: 4rem;
+    border-right: 1px solid $grey2;
+    border-bottom: 1px solid $grey2;
     list-style-type: none;
     mix-blend-mode: normal;
 

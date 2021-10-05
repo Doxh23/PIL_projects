@@ -15,76 +15,88 @@
 
 .droite{
     margin-left: 5rem;
+
     // search form css
     .screen-reader-text{
-        background-color: $third-black;
+        background-color: $third-black!important;
 
         #s{
-            background-color: #171717;
-            border: 1px solid #4b4b4b;
+            background-color: $second-black;
+            border: 1px solid $grey2;
             border-radius: 15px;
             font-size: 1.5rem;
         }
+
         #searchsubmit{
             border: none;
-            background-color: #171717;
+            background-color: $second-black;
             color: white;
         }
-        
     }
+
     // carte entreprises
     .secteur__entreprise{
         margin: 1rem;
-        // display: flex;
 
         // Titre + taxo + btn
-        .secteur__titre{
+        .secteur__accordion{
+            margin-top: 2rem;
+            width: 50rem;
+            padding-bottom: 0.5rem;
             display: flex;
             flex-direction: row;
-            align-items: center;
+            justify-content: space-between;
+            align-items: flex-end;   
+            background-color: $second-black;
+            border: none;
             border-bottom:1px solid $grey2;
 
-            .secteur__taxo{
+            .secteur__titre{
                 display: flex;
-
+                color: white;
                 h2{
                     font-size: 3rem;
                 }
     
                 h6{
-                    margin: 0 0.5rem 0 0.5rem;
-                    padding: 0.5rem;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
+                    margin: 0.5rem;
+                    padding: 0.5rem ;
                     border: 1px solid $grey2;
-                    border-radius: 15px;
-                }
-            }
-           
-            .secteur__button{
-                display: flex;
-                align-items: flex-end;
-                .secteur__accordion{
-                    position: right;
-                    background-color: $second-black;
-                    border: none;
-                    .secteur__btn{
-        
-                    } 
+                    border-radius: 20px;
                 }
             }
             
+            .secteur__btn{
+                transform: none;  
+            } 
         }
-       
+               
         // reste de la div droite
         .secteur__panel{
+            
+            margin: 2.5rem 0rem 2.5rem 0rem;
+            display: none;
+            overflow: hidden;
+            gap: 10rem;
+            
+
             .secteur__img{
                 width: 350px;
                 height: 250px;
             }
-            h6{
 
+            h6{
+                display: flex;
+                padding-bottom:1rem;
+                a{
+                    color: $yellow;
+                    text-decoration: none;
+                }
+            }
+            p{
+                opacity: 0.4;
+                font-size: 0.8rem;
+                font-weight: 100;
             }
         }
     }
