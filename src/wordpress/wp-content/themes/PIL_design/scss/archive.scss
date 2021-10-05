@@ -1,0 +1,92 @@
+.page-template-archive{
+    background-color: $second-black;
+    color: white;
+}
+.secteurs{
+    margin-top: 5rem;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: row;
+}
+.gauche{
+    border-right: 1px solid $grey2;
+    width: 20rem;
+}
+
+.droite{
+    margin-left: 5rem;
+    // search form css
+    .screen-reader-text{
+        background-color: $third-black;
+
+        #s{
+            background-color: #171717;
+            border: 1px solid #4b4b4b;
+            border-radius: 15px;
+            font-size: 1.5rem;
+        }
+        #searchsubmit{
+            border: none;
+            background-color: #171717;
+            color: white;
+        }
+        
+    }
+    // carte entreprises
+    .secteur__entreprise{
+        margin: 1rem;
+        // display: flex;
+
+        // Titre + taxo + btn
+        .secteur__titre{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-bottom:1px solid $grey2;
+
+            .secteur__taxo{
+                display: flex;
+
+                h2{
+                    font-size: 3rem;
+                }
+    
+                h6{
+                    margin: 0 0.5rem 0 0.5rem;
+                    padding: 0.5rem;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    border: 1px solid $grey2;
+                    border-radius: 15px;
+                }
+            }
+           
+            .secteur__button{
+                display: flex;
+                align-items: flex-end;
+                .secteur__accordion{
+                    position: right;
+                    background-color: $second-black;
+                    border: none;
+                    .secteur__btn{
+        
+                    } 
+                }
+            }
+            
+        }
+       
+        // reste de la div droite
+        .secteur__panel{
+            .secteur__img{
+                width: 350px;
+                height: 250px;
+            }
+            h6{
+
+            }
+        }
+    }
+    
+}
