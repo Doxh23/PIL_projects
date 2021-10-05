@@ -1,10 +1,11 @@
 
-  .section-moving-text {
+  #section-moving-text {
     height: 500px;
     overflow-x: hidden;
     background-color: rosybrown;
     background-size: 100vw 100vh;
     background-attachment: fixed;
+    position: relative;
     color: #ffffff;
   }
   
@@ -12,7 +13,7 @@
     padding: 0;
     margin: 0;
     // border: 1px solid #000;
-    position: fixed;
+    position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;

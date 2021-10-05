@@ -32,6 +32,8 @@
 
 
 </div>
+<div class="secteur-accordeons-espace">
+    <div class="accordeons-espace">
 <?php if (have_rows('repeater_accordion')): ?>
 <?php while(have_rows('repeater_accordion')): the_row(); ?>
 <div class="secteur-accordion">
@@ -48,7 +50,7 @@
 
 <div class="liste-espace">
     
-    <h3><?php    the_sub_field('petit_titre_accordeons_espace')?></h3>
+    <h3 class="petit-titre-accordeons"><?php    the_sub_field('petit_titre_accordeons_espace')?></h3>
     <?php if(have_rows('list_accordeons_espace')) : ?>
         <ul>
             <?php while(have_rows('list_accordeons_espace')):the_row() ?>
@@ -60,6 +62,8 @@
 </div>
 </div>
     <?php endwhile;endif ?>
+    </div>
+    </div>
   
 
 
