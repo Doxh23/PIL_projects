@@ -1,9 +1,4 @@
 <div id="top"></div>
-<!--
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -11,13 +6,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/StephanieAn/PIL_project">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/wordpress/wp-content/themes/PIL_design/resources/svg/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">PIL_project</h3>
 
   <p align="center">
-    project_description
+    Project aiming to remake the website of the Pôle Image de Liège to better fit its new image
   </p>
 </div>
 
@@ -43,9 +38,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![lien vers le site à ajouter][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+This project was made during a [BeCode](https://becode.org/) formation, and was used as a learning experience for the developpers.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -63,13 +58,13 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 Project Link: [https://github.com/StephanieAn/PIL_project](https://github.com/StephanieAn/PIL_project)
 
-Stéphanie Antignac - [https://github.com/StephanieAn](https://github.com/StephanieAn)
+Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac)
 
-Naim Zian - [https://github.com/Naim350Z](https://github.com/Naim350Z)
+Naim Zian - [github](https://github.com/Naim350Z) - [linkedin]()
 
-Adrien Péters - [https://github.com/Doxh23](https://github.com/Doxh23)
+Adrien Péters - [github](https://github.com/Doxh23) - [linkedin]()
 
-Zoé Ranzy - [https://github.com/hawkstan](https://github.com/hawkstan)
+Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.linkedin.com/in/z-m-ranzy/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -78,26 +73,12 @@ Zoé Ranzy - [https://github.com/hawkstan](https://github.com/hawkstan)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [BeCode](https://becode.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/StephanieAn/PIL_project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/StephanieAn/PIL_project/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/StephanieAn/PIL_project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/StephanieAn/PIL_project/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/StephanieAn/PIL_project/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+<!-- to put a preview of the site on the about section -->
 [product-screenshot]: images/screenshot.png
