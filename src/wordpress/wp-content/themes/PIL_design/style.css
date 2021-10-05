@@ -1,59 +1,11 @@
+@charset "UTF-8";
 /*
-Error: File to import not found or unreadable: archive.scss.
-        on line 9 of src/wordpress/wp-content/themes/PIL_design/scss/screen.scss
-
-4: @import "home-section-2.scss";
-5: @import "header.scss";
-6: @import "Espace";
-7: @import "listes-home.scss";
-8: @import "footer.scss";
-9: @import "archive.scss";
-10: @import "moving-text.scss";
-
-Backtrace:
-src/wordpress/wp-content/themes/PIL_design/scss/screen.scss:9
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:44:in `import'
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:28:in `imported_file'
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:37:in `css_import?'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:310:in `visit_import'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:135:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:179:in `with_environment'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:166:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:186:in `visit_root'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:157:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:10:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:443:in `on_file_changed'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:320:in `block in watch'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/var/lib/gems/2.7.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+* Theme Name: PIL
+* Description: design du Pole Imade Liège
+* Author: Adrien Peters, Naim Zian, Stéphanie Antignac, Zoé Ranzy
+* Author URI: https://github.com/StephanieAn
+* Version: 1.0
 */
-<<<<<<< HEAD
 html,
 body,
 div,
@@ -140,8 +92,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -155,47 +106,38 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol,
 ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote,
 q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before, blockquote:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
 q:before, q:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 html {
   font-size: 16px;
-  font-family: "II Vorkurs";
-}
+  font-family: "II Vorkurs"; }
 
 .sectionOne {
   background-color: black;
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 .punch-line {
   margin-top: 10rem;
@@ -203,18 +145,15 @@ html {
   font-size: 5.62rem;
   color: white;
   margin-left: 13rem;
-  width: 60%;
-}
+  width: 60%; }
 
 .bureaux-PI {
   margin-left: 13rem;
-  width: 100vw;
-}
+  width: 100vw; }
 
 .image-fleche {
   margin-top: 2rem;
-  height: 700px;
-}
+  height: 700px; }
 
 .fleche-bas {
   position: absolute;
@@ -222,12 +161,10 @@ html {
   margin-top: -120px;
   border: 0.5px solid rgba(255, 255, 255, 0.5);
   border-radius: 10rem;
-  padding: 5rem;
-}
+  padding: 5rem; }
 
 #box {
-  position: relative;
-}
+  position: relative; }
 
 #tooltip {
   position: absolute;
@@ -241,17 +178,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
+  text-align: center; }
 
 #box:hover #tooltip {
-  opacity: 1;
-}
+  opacity: 1; }
 
 body {
   position: relative;
-  height: 2500px;
-}
+  height: 2500px; }
 
 .header {
   position: fixed;
@@ -261,27 +195,22 @@ body {
   background-color: transparent;
   border-bottom: 1px solid #4b4b4b;
   display: flex;
-  /*flex-direction: ;*/
-}
-.header img {
-  padding: 0.6rem;
-  background-color: white;
-  color: black;
-}
-.header .menu-menu-des-pages-container {
-  padding-left: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 0.9rem;
-}
-.header .menu-item a {
-  color: white;
-  text-decoration: none;
-}
-.header .menu-item a:visited {
-  color: white;
-}
+  /*flex-direction: ;*/ }
+  .header img {
+    padding: 0.6rem;
+    background-color: white;
+    color: black; }
+  .header .menu-menu-des-pages-container {
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.9rem; }
+  .header .menu-item a {
+    color: white;
+    text-decoration: none; }
+  .header .menu-item a:visited {
+    color: white; }
 
 .social__nav {
   position: fixed;
@@ -290,25 +219,19 @@ body {
   width: 4rem;
   border-right: 1px solid #4b4b4b;
   border-bottom: 1px solid #4b4b4b;
-  list-style-type: none;
-}
-.social__nav .social_nav__ul {
-  padding: 1rem;
-}
-.social__nav .social_nav__li {
-  padding: 0.5rem;
-}
-.social__nav .social_nav__li a {
-  color: white;
-  text-decoration: none;
-}
-.social__nav .social_nav__li a:visited {
-  color: white;
-}
+  list-style-type: none; }
+  .social__nav .social_nav__ul {
+    padding: 1rem; }
+  .social__nav .social_nav__li {
+    padding: 0.5rem; }
+  .social__nav .social_nav__li a {
+    color: white;
+    text-decoration: none; }
+  .social__nav .social_nav__li a:visited {
+    color: white; }
 
 body {
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 .espace-titre {
   display: flex;
@@ -316,30 +239,24 @@ body {
   width: 100vw;
   height: 40.43rem;
   justify-content: center;
-  align-items: center;
-}
-.espace-titre h1 {
-  font-size: 5.6rem;
-  text-align: center;
-}
+  align-items: center; }
+  .espace-titre h1 {
+    font-size: 5.6rem;
+    text-align: center; }
 
 .img-espace {
   display: flex;
   margin: auto;
-  overflow-x: hidden;
-}
-.img-espace img {
-  width: 72.08vw;
-  margin: auto;
-  margin-bottom: 8rem;
-}
+  overflow-x: hidden; }
+  .img-espace img {
+    width: 72.08vw;
+    margin: auto;
+    margin-bottom: 8rem; }
 
 .espace-mask-group {
-  overflow-x: hidden;
-}
-.espace-mask-group img {
-  width: 100vw;
-}
+  overflow-x: hidden; }
+  .espace-mask-group img {
+    width: 100vw; }
 
 .espace-rubrique {
   width: 100vw;
@@ -347,21 +264,17 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
-}
-.espace-rubrique h2 {
-  font-size: 5.6rem;
-  margin-bottom: 1.875rem;
-}
+  align-items: center; }
+  .espace-rubrique h2 {
+    font-size: 5.6rem;
+    margin-bottom: 1.875rem; }
 
 .espace-reserver {
   width: 28.1875rem;
   display: flex;
-  flex-direction: column;
-}
-.espace-reserver p {
-  line-height: 3rem;
-}
+  flex-direction: column; }
+  .espace-reserver p {
+    line-height: 3rem; }
 
 .img-espace-reserver {
   width: 16.375rem;
@@ -373,19 +286,15 @@ body {
   display: flex;
   align-items: center;
   border-radius: 26px;
-  text-decoration: none;
-}
-.img-espace-reserver:visited {
-  color: inherit;
-}
-.img-espace-reserver:hover {
-  background-color: black;
-  color: white;
-}
+  text-decoration: none; }
+  .img-espace-reserver:visited {
+    color: inherit; }
+  .img-espace-reserver:hover {
+    background-color: black;
+    color: white; }
 
 .espace-production {
-  background-color: #171717;
-}
+  background-color: #171717; }
 
 .nos-productions {
   display: flex;
@@ -393,39 +302,49 @@ body {
   flex-direction: row;
   height: 49.125rem;
   width: 72.708vw;
-  margin: auto;
-}
-.nos-productions .title-production {
-  margin-bottom: 10.156rem;
-  text-align: left;
-}
-.nos-productions h2 {
-  color: #ffffff;
-  font-size: 5.625rem;
-}
-.nos-productions .text-production {
-  text-align: left;
-  margin-bottom: 10.156rem;
-  width: 40.83vw;
-}
-.nos-productions p {
-  color: #ffffff;
-  font-size: 1.25rem;
-  letter-spacing: 0.4px;
-  line-height: 35px;
-  width: 70%;
-}
+  margin: auto; }
+  .nos-productions .title-production {
+    margin-bottom: 10.156rem;
+    text-align: left; }
+  .nos-productions h2 {
+    color: #ffffff;
+    font-size: 5.625rem; }
+  .nos-productions .text-production {
+    text-align: left;
+    margin-bottom: 10.156rem;
+    width: 40.83vw; }
+  .nos-productions p {
+    color: #ffffff;
+    font-size: 1.25rem;
+    letter-spacing: 0.4px;
+    line-height: 35px;
+    width: 70%; }
 
 .secteur-accordion {
   background-color: #171717;
   display: flex;
   flex-direction: column;
-  margin: auto;
-}
-.secteur-accordion button {
-  width: 72.708vw;
-  margin: auto;
-}
+  margin: auto; }
+  .secteur-accordion .accordions-button {
+    width: 72.708vw;
+    height: 8.4375rem;
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid black;
+    border-bottom: 1px solid rgba(65, 51, 51, 0.6);
+    justify-content: space-between; }
+    .secteur-accordion .accordions-button .accordeons-plus {
+      display: flex;
+      align-items: center;
+      font-size: 5.625rem; }
+    .secteur-accordion .accordions-button .titre-accordions {
+      display: flex;
+      justify-content: start;
+      align-items: flex-start; }
+      .secteur-accordion .accordions-button .titre-accordions h3 {
+        font-size: 5.625rem;
+        color: #ffffff; }
 
 .content-accord {
   display: flex;
@@ -433,38 +352,30 @@ body {
   justify-content: space-between;
   width: 72.708vw;
   margin: auto;
-  margin-top: 7.06rem;
-}
-.content-accord ul {
-  columns: 2;
-}
+  margin-top: 7.06rem; }
+  .content-accord ul {
+    columns: 2; }
 
 .text-accord {
-  width: 24.47vw;
-}
-.text-accord p {
-  color: #ffffff;
-}
+  width: 24.47vw; }
+  .text-accord p {
+    color: #ffffff; }
 
 .liste-espace {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .introduction-section {
-  background-color: black;
-}
+  background-color: black; }
 
 .introduction {
   font-size: 34px;
   color: #ffffff;
   max-width: 22%;
-  margin-left: 13rem;
-}
+  margin-left: 13rem; }
 
 .listes-container {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .liste_1_home {
   max-width: 85%;
@@ -474,8 +385,7 @@ body {
   color: #ffffff;
   list-style: none;
   margin-left: 0;
-  padding-left: 0;
-}
+  padding-left: 0; }
 
 .liste_2 {
   max-width: 85%;
@@ -486,136 +396,118 @@ body {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
-  margin-right: 3rem;
-}
+  margin-right: 3rem; }
 
 .li-1 {
   padding-left: 1em;
   text-indent: -1em;
-  line-height: 1.7;
-}
+  line-height: 1.7; }
 
 .titre {
   font-size: 24px;
   color: #ffffff;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .li-2 {
   padding-left: 1em;
   text-indent: -1em;
-  line-height: 1.7;
-}
+  line-height: 1.7; }
 
 .li-2:before {
   content: "+";
   padding-right: 5px;
-  color: #ffc33b;
-}
+  color: #ffc33b; }
 
 .li-1:before {
   content: "+";
   padding-right: 5px;
-  color: #ffc33b;
-}
+  color: #ffc33b; }
 
 footer {
-  width: 85%;
-  margin: 1rem auto 0rem;
+  background-color: #171717;
+  padding: 1rem auto 0rem;
+  width: 100vw;
   color: #ffffff;
-  font-size: 0.9375rem;
-}
-footer p {
-  color: #ffffff;
-}
-footer .foot {
-  display: flex;
-  justify-content: center;
-  border-top: lightgray solid 0.0625rem;
-  border-top: rgba(255, 255, 255, 0.8) solid 0.0625rem;
-}
-footer a {
-  text-decoration: none;
-  color: #ffffff;
-}
-footer .big-txt {
-  font-weight: 600;
-  font-size: 1.25rem;
-  padding-top: 3rem;
-}
-footer .big-txt a:hover {
-  color: #000000;
-}
-footer .footer-left {
-  flex-grow: 1;
-  height: 21.875rem;
-  margin-right: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-footer .footer-left .tel {
-  align-self: flex-end;
-  width: 12rem;
-  height: 12rem;
-  line-height: 12rem;
-  border: lightgray solid 0.0625rem;
-  border: rgba(255, 255, 255, 0.8) solid 0.0625rem;
-  border-radius: 50%;
-  text-align: center;
-}
-footer .footer-right {
-  border-left: lightgray solid 0.0625rem;
-  border-left: rgba(255, 255, 255, 0.8) solid 0.0625rem;
-  flex-grow: 1.2;
-  height: 21.875rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-footer .footer-right ul {
-  margin-left: 6rem;
-}
-footer .footer-right ul li {
-  padding-bottom: 1rem;
-}
-footer .footer-right ul li:last-child {
-  padding-bottom: 0rem;
-}
-footer .footer-right .smalls {
-  margin-left: 6rem;
-  display: flex;
-  justify-content: space-between;
-  color: lightgray;
-  font-weight: 200;
-}
-footer .footer-right .smalls .small-right a {
-  color: #ffffff;
-}
+  font-size: 0.9375rem; }
+  footer p {
+    color: #ffffff; }
+  footer .foot {
+    display: flex;
+    justify-content: center;
+    border-top: #656565 solid 0.0625rem;
+    border-top: rgba(255, 255, 255, 0.8) solid 0.0625rem; }
+  footer a {
+    text-decoration: none;
+    color: #ffffff; }
+  footer .big-txt {
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding-top: 3rem; }
+    footer .big-txt a:hover {
+      color: #ffc33b; }
+  footer .footer-left {
+    flex-grow: 1;
+    height: 21.875rem;
+    margin-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    footer .footer-left .tel {
+      align-self: flex-end;
+      width: 12rem;
+      height: 12rem;
+      line-height: 12rem;
+      border: #656565 solid 0.0625rem;
+      border: rgba(255, 255, 255, 0.8) solid 0.0625rem;
+      border-radius: 50%;
+      text-align: center; }
+  footer .footer-right {
+    border-left: #656565 solid 0.0625rem;
+    border-left: rgba(255, 255, 255, 0.8) solid 0.0625rem;
+    flex-grow: 1.3;
+    height: 21.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    footer .footer-right ul {
+      margin-left: 6rem; }
+      footer .footer-right ul li {
+        padding-bottom: 1rem; }
+      footer .footer-right ul li:last-child {
+        padding-bottom: 0rem; }
+    footer .footer-right .smalls {
+      margin-left: 6rem;
+      display: flex;
+      justify-content: space-between;
+      color: #656565;
+      font-weight: 200; }
+      footer .footer-right .smalls .small-right a {
+        color: #ffffff; }
+
+.page-template-archive {
+  background-color: #171717;
+  color: white; }
 
 .section-moving-text {
   height: 500px;
   overflow-x: hidden;
   background-color: rosybrown;
   background-size: 100vw 100vh;
-  color: #ffffff;
-}
+  background-attachment: fixed;
+  color: #ffffff; }
 
 #moving-text {
   padding: 0;
   margin: 0;
+  position: fixed;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
-  font-size: 5em;
-}
+  font-size: 5em; }
+
+.contact {
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
-=======
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: archive.scss.\A         on line 9 of src/wordpress/wp-content/themes/PIL_design/scss/screen.scss\A \A 4: @import \"home-section-2.scss\";\A 5: @import \"header.scss\";\A 6: @import \"Espace\";\A 7: @import \"listes-home.scss\";\A 8: @import \"footer.scss\";\A 9: @import \"archive.scss\";\A 10: @import \"moving-text.scss\";"; }
->>>>>>> 9613a0445e4ad01679e9ebb177d5eae46157fc79
