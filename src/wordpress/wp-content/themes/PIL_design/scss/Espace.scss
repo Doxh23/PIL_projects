@@ -174,3 +174,24 @@ h3 {
 .liste-espace{
   color: $white;
 }
+.spintch{
+  background:url('resources/images/Mask Group 93@2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 41.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  .contenue-spintch{
+    margin-left: 13.59vw;
+    max-width: 924px;
+    h2{
+      font-size: 3.125rem;
+    }
+    h3{
+      font-size: 1.5rem;
+    }
+  }
+}

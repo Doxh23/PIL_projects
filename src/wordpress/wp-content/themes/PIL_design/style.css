@@ -225,24 +225,39 @@ body {
   align-items: center;
   justify-content: space-around;
   font-size: 0.9rem;
+<<<<<<< HEAD
+=======
+  mix-blend-mode: normal;
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 }
 .header .menu-item a {
   color: white;
   text-decoration: none;
+<<<<<<< HEAD
 }
 .header .menu-item a:visited {
   color: white;
+=======
+  mix-blend-mode: normal;
+}
+.header .menu-item a:visited {
+  color: white;
+  mix-blend-mode: normal;
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 }
 
 .social__nav {
   position: fixed;
-  height: auto;
   padding: 26rem 1rem 1rem 1rem;
-  width: 6rem;
+  width: 4rem;
   border-right: 1px solid #4b4b4b;
   border-bottom: 1px solid #4b4b4b;
   list-style-type: none;
+<<<<<<< HEAD
   z-index: 2;
+=======
+  mix-blend-mode: normal;
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 }
 .social__nav .social_nav__ul {
   padding: 1rem;
@@ -436,6 +451,30 @@ body {
 .liste-espace {
   color: #ffffff;
 }
+<<<<<<< HEAD
+=======
+
+.spintch {
+  background: url("resources/images/Mask Group 93@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 41.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.spintch .contenue-spintch {
+  margin-left: 13.59vw;
+  max-width: 924px;
+}
+.spintch .contenue-spintch h2 {
+  font-size: 3.125rem;
+}
+.spintch .contenue-spintch h3 {
+  font-size: 1.5rem;
+}
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 
 .introduction-section {
   background-color: black;
@@ -602,7 +641,11 @@ footer .footer-right .smalls .small-right a {
   margin-left: 5rem;
 }
 .droite .screen-reader-text {
+<<<<<<< HEAD
   background-color: #212121;
+=======
+  background-color: #212121 !important;
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 }
 .droite .screen-reader-text #s {
   background-color: #171717;
@@ -618,6 +661,7 @@ footer .footer-right .smalls .small-right a {
 .droite .secteur__entreprise {
   margin: 1rem;
 }
+<<<<<<< HEAD
 .droite .secteur__entreprise .secteur__titre {
   display: flex;
   flex-direction: row;
@@ -647,11 +691,63 @@ footer .footer-right .smalls .small-right a {
   position: right;
   background-color: #171717;
   border: none;
+=======
+.droite .secteur__entreprise .secteur__accordion {
+  margin-top: 2rem;
+  width: 50rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #171717;
+  border: none;
+  border-bottom: 1px solid #4b4b4b;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__titre {
+  display: flex;
+  color: white;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__titre h2 {
+  font-size: 3rem;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__titre h6 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #4b4b4b;
+  border-radius: 20px;
+}
+.droite .secteur__entreprise .secteur__accordion .secteur__btn {
+  transform: none;
+}
+.droite .secteur__entreprise .secteur__panel {
+  margin: 2.5rem 0rem 2.5rem 0rem;
+  display: none;
+  overflow: hidden;
+  gap: 10rem;
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 }
 .droite .secteur__entreprise .secteur__panel .secteur__img {
   width: 350px;
   height: 250px;
 }
+<<<<<<< HEAD
+=======
+.droite .secteur__entreprise .secteur__panel h6 {
+  display: flex;
+  padding-bottom: 1rem;
+}
+.droite .secteur__entreprise .secteur__panel h6 a {
+  color: #ffc33b;
+  text-decoration: none;
+}
+.droite .secteur__entreprise .secteur__panel p {
+  opacity: 0.4;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 #section-moving-text {
   height: 500px;
   overflow-x: hidden;
@@ -674,6 +770,7 @@ footer .footer-right .smalls .small-right a {
   font-size: 5em;
 }
 
+<<<<<<< HEAD
 .formation {
   height: 800px;
   width: auto;
@@ -731,5 +828,69 @@ footer .footer-right .smalls .small-right a {
   color: #171717;
   margin-top: 4rem;
 }
+=======
+.pole-top-banner {
+  display: flex;
+  flex-direction: column;
+  background: #171717; }
+  .pole-top-banner h2 {
+    font-size: 5.625rem; }
+  .pole-top-banner .texte-top-banner {
+    display: flex;
+    flex-direction: row;
+    height: 1096px;
+    margin-left: 13.64vw; }
+    .pole-top-banner .texte-top-banner .titre-top-banner {
+      display: flex;
+      align-items: center;
+      color: white; }
+    .pole-top-banner .texte-top-banner .para-top-banner {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 7rem;
+      font-size: 24px;
+      color: white; }
+
+.member-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 452px);
+  grid-auto-rows: minmax(543px, 1fr);
+  grid-gap: 20px; }
+
+.member {
+  display: flex;
+  position: relative;
+  background: #ffc33b;
+  justify-content: center;
+  align-items: center; }
+  .member img {
+    width: 452px;
+    height: 543px;
+    position: absolute;
+    top: 0%;
+    left: 0%; }
+
+.member:hover > img {
+  display: none; }
+
+.donnee-member {
+  width: 350px;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.name {
+  margin-left: 50px;
+  margin-top: 58px;
+  font-size: 34px; }
+
+.role {
+  margin-left: 50px;
+  margin-bottom: 58px;
+  font-size: 24px; }
+  .role p {
+    margin: 10px; }
+>>>>>>> 9521321a9a5b4d422d2a55e34cbeb1085b67f8b9
 
 /*# sourceMappingURL=style.css.map */
