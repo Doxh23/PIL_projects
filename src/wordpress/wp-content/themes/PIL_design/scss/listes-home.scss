@@ -1,17 +1,27 @@
 .introduction-section {
   background-color: black;
 }
-
+.titre_formation {
+  margin-top: 60px;
+}
 .introduction {
   font-size: 34px;
   color: $white;
   max-width: 22%;
   margin-left: 13rem;
 }
+.image-formation {
+  margin-top: -100px;
+  margin-left: -150px;
+  z-index: 2;
+}
 
 .listes-container {
   display: flex;
   justify-content: space-between;
+}
+.liste_formation {
+  line-height: 2.6;
 }
 .liste_1_home {
   max-width: 85%;
@@ -61,4 +71,33 @@
   content: "+";
   padding-right: 5px;
   color: $yellow;
+}
+.btn-aca {
+  margin-top: 3rem;
+  background-color: white;
+  border: none;
+}
+// .btn-aca:hover {
+//   margin-top: 3rem;
+//   background-color: $second-black;
+//   border: none;
+//   color: white;
+// }
+.a-aca {
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: $second-black;
+}
+.a-aca:hover {
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: $second-black;
+  color: white;
+  .yellow {
+    color: $yellow;
+  }
 }
