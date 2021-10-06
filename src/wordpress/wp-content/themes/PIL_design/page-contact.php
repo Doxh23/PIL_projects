@@ -9,7 +9,7 @@
     <div class="contact-left">
         <h3>Contact</h3>
         <div class="iti"><p>Rue de Mulhouse, 36<br>4020 Liège, Belgique</p>
-        <input type="button" value="Itinéraire" id="itinerary"></div>
+        <button class="itinerary"><a href="https://www.google.com/maps/dir//P%C3%B4le+image+de+Li%C3%A8ge+Rue+de+Mulhouse+36+4020+Li%C3%A8ge/@50.6326746,5.5854792,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c0f0abbfc177c7:0xf2c9f9204e1bb92b!2m2!1d5.5854792!2d50.6326746">Itinéraire <img src="http://cdn.onlinewebfonts.com/svg/img_164074.svg"></a></button></div>
     </div>
     <div class="contact-right">
         <div class="contact-contact">
