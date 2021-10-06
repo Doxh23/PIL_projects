@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 /*
 * Theme Name: PIL
@@ -747,3 +748,22 @@ footer {
     margin: 10px; }
 
 /*# sourceMappingURL=style.css.map */
+=======
+/* Error: expected "{".
+ *    ,
+ * 11 | @import "formation.scss";
+ *    |                         ^
+ *    '
+ *   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 11:25  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 11 \2502  @import "formation.scss";\a    \2502                          ^\a    \2575 \a   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 11:25  root stylesheet';
+}
+>>>>>>> 77ea973f18b1d055ea4c921bae7ad6b500ba2ce9
