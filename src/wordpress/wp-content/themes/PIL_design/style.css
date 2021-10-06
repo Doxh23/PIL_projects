@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @charset "UTF-8";
 /*
 * Theme Name: PIL
@@ -713,8 +712,14 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, 452px);
   grid-auto-rows: minmax(543px, 1fr);
-  grid-gap: 20px;
-  margin-left: 13.64vw; }
+  grid-gap: 20px; }
+
+.notre-equipe {
+  margin-left: 13.64vw;
+  margin-top: 97px; }
+  .notre-equipe h3 {
+    margin-bottom: 80px;
+    font-size: 3.125rem; }
 
 .member {
   display: flex;
@@ -747,23 +752,36 @@ footer {
   .role p {
     margin: 10px; }
 
-/*# sourceMappingURL=style.css.map */
-=======
-/* Error: expected "{".
- *    ,
- * 11 | @import "formation.scss";
- *    |                         ^
- *    '
- *   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 11:25  root stylesheet */
+.actu-pole {
+  display: flex;
+  flex-direction: row;
+  margin-top: 18.625rem;
+  margin-left: 13.64vw;
+  height: 434px; }
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 11 \2502  @import "formation.scss";\a    \2502                          ^\a    \2575 \a   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 11:25  root stylesheet';
-}
->>>>>>> 77ea973f18b1d055ea4c921bae7ad6b500ba2ce9
+.actu-button {
+  display: flex;
+  flex-direction: row;
+  height: 434px; }
+
+.arrow-actu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+  .arrow-actu p {
+    font-size: 25px; }
+
+.carte-actu {
+  width: 452px;
+  height: 434px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.content-carte-actu {
+  width: 375.41px;
+  height: 322px;
+  border: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */
