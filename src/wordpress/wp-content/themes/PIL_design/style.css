@@ -508,6 +508,34 @@ footer {
   font-size: 5em; }
 
 .contact {
-  background-color: #ffffff; }
+  padding-top: 5rem;
+  padding-left: 7rem;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex; }
+  .contact .contact-left {
+    flex-grow: 1;
+    border-right: #656565 solid 0.0625rem;
+    border-right: rgba(255, 255, 255, 0.8) solid 0.0625rem;
+    display: flex;
+    flex-flow: column; }
+    .contact .contact-left .iti {
+      align-self: center; }
+  .contact .contact-right {
+    margin-left: 2rem;
+    flex-grow: 1.6;
+    display: flex;
+    flex-flow: column; }
+    .contact .contact-right .contact-contact {
+      font-size: 4.2rem;
+      font-weight: 300; }
+      .contact .contact-right .contact-contact a {
+        text-decoration: none;
+        color: inherit; }
+      .contact .contact-right .contact-contact .tel {
+        display: flex; }
+        .contact .contact-right .contact-contact .tel .plus {
+          color: #ffc33b;
+          font-size: 2rem; }
 
 /*# sourceMappingURL=style.css.map */

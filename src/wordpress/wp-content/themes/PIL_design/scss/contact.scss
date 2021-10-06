@@ -1,3 +1,38 @@
-.contact {
+.contact{
+    padding-top: 5rem;
+    padding-left: 7rem;
     background-color: $white;
+    color:$main-color;
+    display: flex;
+    .contact-left{
+        flex-grow: 1;
+        border-right: $border-default;
+        border-right: $border;
+        display: flex;
+        flex-flow: column;
+        .iti {
+            align-self: center;
+        }
+    }
+    .contact-right {
+        margin-left: 2rem;
+        flex-grow: 1.6;
+        display: flex;
+        flex-flow: column;
+        .contact-contact {
+            font-size: 4.2rem;
+            font-weight: 300;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+            .tel {
+                display: flex;
+                .plus {
+                    color: $yellow;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
 }
