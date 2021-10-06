@@ -57,7 +57,7 @@ This project was made during a [BeCode](https://becode.org/) formation, and was 
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/StephanieAn/PIL_project](https://github.com/StephanieAn/PIL_project)
+Project repository link: [https://github.com/StephanieAn/PIL_project](https://github.com/StephanieAn/PIL_project)
 
 Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac)
 
