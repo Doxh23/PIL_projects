@@ -3,16 +3,23 @@
 <div class="pole-top-banner">
     <div class="texte-top-banner">
         <div class="titre-top-banner">
-<h2>le grand cluster dedié aux industrieq créative</h2>
+<h2><?php  the_field('titre_propos') ?></h2>
 </div>
 <div class="para-top-banner">
 <p>
-
-    installé  dans une ancienne fabrique  de tabac  totalement rénovée , le Pole est devenu  e plus grand  cluster d'entreprises wallon  dédié  a l'audiovisuel
+<?php  the_field('introduction_propos') ?>
 </p>
 </div>
 </div>
-<img src="http://localhost/wordpress/wp-content/uploads/2021/10/Mask-Group-98@2x.jpg" alt="">
+<div class="embed-video-pole">
+<?php  if(get_field('embed_video_propos')) {
+the_field('embed_video_propos'); 
+}
+else{ ?>
+<img src="<?php  echo get_field('img_embed_video_propos')['sizes']['large'];
+?>" alt="">
+<?php } ?>
+</div>
 </div>
 
 
@@ -20,7 +27,7 @@
 <div>
 
 <section id= "section-moving-text">
-<p id="moving-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero porro doloribus amet blanditiis reiciendis nihil. ?></p>
+<p id="moving-text"> <?php the_field('grand_texte_propos')  ?></p>
 </section>
 <section>
 <h3> Notre equipe</h3>
@@ -34,8 +41,8 @@
     <p><?php  the_sub_field('nom_propos')?></p>
     </div>
     <div class="role">
-    <p>test2</p>
-    <p>test3</p>
+    <p><?php  the_sub_field('role')  ?></p>
+    <p><?php  the_sub_field('email_propos') ?></p>
     </div>
     </div>
 </div>

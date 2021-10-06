@@ -811,6 +811,15 @@ footer .footer-right .smalls .small-right a {
   color: white;
 }
 
+.embed-video-pole iframe {
+  width: 86.35vw;
+  margin-left: 13.65vw;
+}
+.embed-video-pole img {
+  width: 86.35vw;
+  margin-left: 13.65vw;
+}
+
 .member-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 452px);
@@ -847,14 +856,10 @@ footer .footer-right .smalls .small-right a {
 }
 
 .name {
-  margin-left: 50px;
-  margin-top: 58px;
   font-size: 34px;
 }
 
 .role {
-  margin-left: 50px;
-  margin-bottom: 58px;
   font-size: 24px;
 }
 .role p {
