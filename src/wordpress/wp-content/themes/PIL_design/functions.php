@@ -32,7 +32,7 @@ add_action('wp_enqueue_scripts', 'register_assets');
 
 register_nav_menus(array(
     'main' => 'Menu_header',
-    'header' => 'Haut de page',
+    'aside' => 'Categories',
 ));
 
 function add_file_types_to_uploads($file_types)
