@@ -19,43 +19,43 @@ body {
   .menu-menu-des-pages-container {
     padding-left: 5rem;
     display: flex;
-    
-    img{
-        padding: 0.6rem;
-        background-color: white;
-        color: black;
+
+    img {
+      padding: 0.6rem;
+      background-color: white;
+      color: black;
     }
-    .menu-menu-des-pages-container{
-        padding-left: 5rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 0.9rem;
-        mix-blend-mode: normal;
-       
+    .menu-menu-des-pages-container {
+      padding-left: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 0.9rem;
+      mix-blend-mode: normal;
     }
-    .menu-item a{
-        color: white;
-        text-decoration: none;
-        mix-blend-mode: normal;
+    .menu-item a {
+      color: white;
+      text-decoration: none;
+      mix-blend-mode: normal;
     }
-    .menu-item a:visited{
-        color: white;
-        mix-blend-mode: normal;
+    .menu-item a:visited {
+      color: white;
+      mix-blend-mode: normal;
     }
   }
 }
 
-.social__nav{
-    position: fixed;
-    height: auto;
-    padding: 26rem 1rem 1rem 1rem;
-    width: 4rem;
-    border-right: 1px solid $grey2;
-    border-bottom: 1px solid $grey2;
-    list-style-type: none;
-    mix-blend-mode: normal;
-    display: flex;
+.social__nav {
+  position: fixed;
+  height: auto;
+  padding: 26rem 1rem 1rem 1rem;
+  width: 4rem;
+  border-right: 1px solid $grey2;
+  border-bottom: 1px solid $grey2;
+  list-style-type: none;
+  mix-blend-mode: normal;
+  display: flex;
+  z-index: 3;
 
   .social_nav__ul {
     padding: 1rem;
@@ -70,5 +70,4 @@ body {
   .social_nav__li a:visited {
     color: white;
   }
-
 }
