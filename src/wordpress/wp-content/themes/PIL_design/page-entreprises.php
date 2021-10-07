@@ -63,43 +63,57 @@ wp_reset_postdata();
                         $child_cats = get_categories( $get_children_cats );
                         //get children of parent category 
 
-                        echo '<form class="form-check" action="" >';                     foreach( $child_cats as $child_cat ){                         
-                                //for each child category, get the ID                        
-                        $chil;
-                        }
+                       
                 }?>
+                </ul> 
         </div>
-        <div class="droite">
-        <? get_search_form(); ?>
-                <?php if( have_posts() ) : while( have_posts() ) : the_post(); 
-                //var_dump($post);
-                the_title();?>
 
-                        <div class="secteur__entreprise">
-                                <button class="secteur__accordion">
-                                        <div class="secteur__titre">
-                                                <h2><? the_field('nom__entreprise')?></h2>
-                                                <?php foreach(get_field('taxonomie_entreprise') as $data){ ?>
-                                                        <h6> <?php echo $data;?></h6>
-                                                <? }?>
-                                        </div>
-                                        <img class="secteur__btn" src="http://localhost/wordpress/wp-content/uploads/2021/09/arrow-down.svg" alt="button flèche vers le bas">
-                                </button>            
-                                <div class="secteur__panel">
-                                        <img class="secteur__img" src="<? the_field('image_entreprise')?>" alt="<? the_field('nom__entreprise')?>">
-                                        <div class="secteur__info">
-                                                <h6><? the_field('telephone_entreprise')?></h6>
-                                                <h6><? the_field('email_entreprise')?></h6>
-                                                <h6>
-                                                        <a href="<? the_field('site_web_entreprise')?>">
-                                                        <? the_field('site_web_entreprise')?>
-                                                        </a>
-                                                </h6>
-                                                <p><? the_field('description_entreprise')?></p>
+        <div class="droite">
+                <?php 
+                // the query
+                $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish')); ?>
+                
+                <?php if ( $wpb_all_query->have_posts() ) : ?>
+
+                        <form role="search" method="post" id="searchform" class="searchform" action="http://localhost/wordpress/index.php/les-entreprises/?s=<? the_field('nom_entreprise');?>">
+                                <label class="screen-reader-text" for="s">Search for:</label>
+                                <input type="text" value="" name="s" id="s" placeholder="Chercher une entreprise"/>
+                                <input type="submit" id="searchsubmit" value="Search" />
+                         </form> 
+
+                <!-- the loop -->
+                <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+                <div class="secteur__entreprise">
+                                        <button class="secteur__accordion">
+                                                <div class="secteur__titre">
+                                                        <h2><? the_field('nom_entreprise')?></h2>
+                                                        <?php foreach(get_field('taxonomie_entreprise') as $data){ ?>
+                                                                <h6> <?php echo $data;?></h6>
+                                                        <? }?>
+                                                </div>
+                                                <img class="secteur__btn" src="http://localhost/wordpress/wp-content/uploads/2021/09/arrow-down.svg" alt="button flèche vers le bas">
+                                        </button>            
+                                        <div class="secteur__panel">
+                                                <img class="secteur__img" src="<? the_field('image_entreprise')?>" alt="<? the_field('nom__entreprise')?>">
+                                                <div class="secteur__info">
+                                                        <h6><? the_field('telephone_entreprise')?></h6>
+                                                        <h6><? the_field('email_entreprise')?></h6>
+                                                        <h6>
+                                                                <a href="<? the_field('site_web_entreprise')?>">
+                                                                <? the_field('site_web_entreprise')?>
+                                                                </a>
+                                                        </h6>
+                                                        <p><? the_field('description_entreprise')?></p>
+                                                </div>
                                         </div>
                                 </div>
-                        </div>
-                <? endwhile; endif;?>
+                <?php endwhile; ?>
+                <!-- end of the loop -->                
+                <?php wp_reset_postdata(); ?>
+                <?php else : ?>
+                <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                <?php endif; ?>                        
         </div>
 </section>
+
 <? get_footer(); ?>

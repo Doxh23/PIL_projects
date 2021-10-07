@@ -1,9 +1,9 @@
-.page-template-archive{
+.page-template-page-entreprises{
     background-color: $second-black;
     color: white;
 }
 .secteurs{
-    margin-top: 5rem;
+    margin-top: 7rem;
     margin-left: 7rem;
     display: flex;
     flex-direction: row;
@@ -17,14 +17,18 @@
     margin-left: 5rem;
 
     // search form css
-    .screen-reader-text{
-        background-color: $third-black!important;
-
+    #searchform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         #s{
+            padding:0.5rem ;
+            width: 45rem;
             background-color: $second-black;
             border: 1px solid $grey2;
             border-radius: 15px;
-            font-size: 1.5rem;
+            color: white;
+            font-size: 1rem;
         }
 
         #searchsubmit{
@@ -32,8 +36,8 @@
             background-color: $second-black;
             color: white;
         }
+    
     }
-
     // carte entreprises
     .secteur__entreprise{
         margin: 1rem;
@@ -55,7 +59,7 @@
                 display: flex;
                 color: white;
                 h2{
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
     
                 h6{
