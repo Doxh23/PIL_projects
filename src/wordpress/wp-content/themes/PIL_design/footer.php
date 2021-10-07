@@ -10,10 +10,10 @@
         </div>
         <div class="footer-right">
             <ul class="big-txt">
-                <li><a href="archive-entreprises.php">Les entreprises</a></li>
-                <li><a href="page-espace.php">Nos espaces</a></li>
-                <li><a href="page-pole.php">Le Pôle</a></li>
-                <li><a href="page-contact.php">Contact</a></li>
+                <li><a href="http://localhost/wordpress/index.php/les-entreprises/">Les entreprises</a></li>
+                <li><a href="http://localhost/wordpress/index.php/espace/">Nos espaces</a></li>
+                <li><a href="http://localhost/wordpress/index.php/pole/">Le Pôle</a></li>
+                <li><a href="http://localhost/wordpress/index.php/page-contact/">Contact</a></li>
             </ul>
             <div class="smalls">
                 <small class="small-left">Le Pôle Image © 2021.<br><a href="http://localhost/wordpress/index.php/politique-de-confidentialite/">Politique de confidentialité</a></small>

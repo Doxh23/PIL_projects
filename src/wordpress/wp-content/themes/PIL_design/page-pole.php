@@ -29,7 +29,7 @@ else{ ?>
 <section id= "section-moving-text">
 <p id="moving-text"> <?php the_field('grand_texte_propos')  ?></p>
 </section>
-<section>
+<section class="notre-equipe">
 <h3> Notre equipe</h3>
 <div class="member-container">
 <?php if (have_rows('grille_repeater_propos')): ?>
@@ -49,9 +49,32 @@ else{ ?>
 <?php endwhile;endif ?>
 </div>
 </section>
-<div class="actu-button"></div>
-<div class="carte-actu"></div>
+<section class="actu-pole">
+<div class="actu-button">
+    <div>
+    <h3>Actualité</h3>
+    <button>suivez nous</button>
+    </div>
+    <div class="arrow-actu">
+    <button> -> </button>
+    <button> <- </button>
+    </div>
+</div>
 
+<div class="carte-actu">
+    <div class="content-carte-actu">
+    <div class="date-carte-actu"> 
+        <p>
+        </p>
+        <img src="" alt="">
+    </div>
+    <div class="comment-carte-actu">
+        <p></p>
+
+    </div>
+    </div>
+</div>
+</section>
 
 </div>
 

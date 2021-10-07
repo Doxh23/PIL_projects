@@ -39,7 +39,35 @@ wp_reset_postdata();
 <section class="secteurs">
         <div class="gauche">
                 <h1><? the_title();?></h1>
-                <!-- + menu accordeon categories -->
+
+                <ul>   
+                <?php              
+                $get_parent_cats = array('parent' => '0' //get top level categories only 
+                );          
+                     
+                $all_categories = get_categories( $get_parent_cats );
+                //get parent categories
+
+                foreach( $all_categories as $single_category ){                 
+                        //for each category, get the ID  
+
+                        $catID = $single_category -> cat_ID; 
+                        
+                        echo '<li><a href=" ' . get_category_link( $catID ) . ' ">' . $single_category -> name . '</a>'; 
+
+                        //category name & link                     
+                        $get_children_cats = array('child_of' => $catID 
+                        //get children of this parent using the catID variable from earlier                 
+                        );
+
+                        $child_cats = get_categories( $get_children_cats );
+                        //get children of parent category 
+
+                        echo '<form class="form-check" action="" >';                     foreach( $child_cats as $child_cat ){                         
+                                //for each child category, get the ID                        
+                        $chil;
+                        }
+                }?>
         </div>
         <div class="droite">
         <? get_search_form(); ?>
