@@ -1,18 +1,20 @@
-.contact{
+.contact {
     padding-top: 5rem;
     padding-left: 7rem;
     background-color: $white;
     color:$main-color;
     display: flex;
-    .contact-left{
+    .contact-left {
+        height: 60rem;
         flex-grow: 1;
         border-right: $border-default;
         border-right: $border;
         display: flex;
         flex-flow: column;
-        justify-content: center;
+        justify-content: space-between;
         text-align: center;
         .iti {
+            font-size: 1.4rem;
             .itinerary {
                 border-radius: 5rem;
                 padding: 0.5rem 0rem;
@@ -24,7 +26,7 @@
                     img {
                         height: 1rem;
                         filter: invert(91%) sepia(26%) saturate(4538%) hue-rotate(329deg) brightness(110%) contrast(102%);
-                        padding-bottom: _0.2rem;
+                        margin-bottom: _0.2rem;
                         //get lower you son of a bit
                     }
                 }
@@ -37,13 +39,13 @@
             }
         }
         h3 {
-            //will you get on top of this flex
-            justify-self: flex-start;
+            margin-top: 4rem;
             font-size: 3rem;
             font-weight: 800;
         }
     }
     .contact-right {
+        //need the map on the bottom & larger
         margin-left: 8rem;
         flex-grow: 1.6;
         display: flex;
