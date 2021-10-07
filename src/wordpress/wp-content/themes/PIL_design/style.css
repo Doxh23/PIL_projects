@@ -234,7 +234,6 @@ body {
 }
 .header .header__img .menu-menu-des-pages-container .menu {
   display: flex;
-  margin-top: 1.5rem;
 }
 .header .header__img .menu-menu-des-pages-container .menu .menu-item {
   display: flex;
@@ -253,7 +252,7 @@ body {
 .header .header__menu {
   display: flex;
   justify-content: space-between;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 .header .header__menu .menu-contact-container #menu-contact .menu-item a {
   color: white;
