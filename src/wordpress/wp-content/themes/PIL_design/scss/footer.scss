@@ -1,7 +1,9 @@
-$border-default: $grey3 solid 0.0625rem;
+$border-default: $grey2 solid 1px;
 //rgba not valid on all browser, need alt
-$border: rgba(255, 255, 255, .8) solid 0.0625rem;
+$border: $grey2 solid 1px;
+
 footer {
+    margin-left: 15rem;
     background-color: $second-black;
     padding: 1rem auto 0rem;
     width: 100vw;
@@ -49,6 +51,7 @@ footer {
         justify-content: space-between;
     }
     .footer-right {
+        margin-right: 15rem;
         border-left: $border-default;
         border-left: $border;
         flex-grow: 1.3;
@@ -66,14 +69,20 @@ footer {
               }
         }
         .smalls {
-            margin-left: 6rem;
+            //margin-left: 6rem;
             display: flex;
             justify-content: space-between;
             color: $grey3;
             //WHY DON'T YOU TAKE THE FUCKING FONT WEIGHT
             font-weight: 200;
-            .small-right a {
+            .small-left{
+                margin-left: 6rem;
+            }
+            .small-right{
+                margin-right: 15rem;
+                 a {
                 color: #ffffff;
+                }
             }
         }
     }
