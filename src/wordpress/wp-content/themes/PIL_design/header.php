@@ -11,9 +11,12 @@
    <header class="header">
         <div class="header__img ">
             <img src="http://localhost/wordpress/wp-content/uploads/2021/09/logo-1.svg" alt="">
+            <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
+        </div>
+        <div class="header__menu">
+            <?php wp_nav_menu( array( 'theme_location' => 'contact' ) );?>
+            <img class="arrow__contact" src="http://localhost/wordpress/wp-content/uploads/2021/09/arrow-conctact.svg" alt="Contact Arrow">
        </div>
-       <?php wp_nav_menu( array( 'theme_location' => 'main' ) ); ?>
-       <?php ?>
    </header>
    <main>
     <aside class="social__nav">

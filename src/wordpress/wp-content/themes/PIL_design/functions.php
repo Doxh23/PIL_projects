@@ -33,6 +33,7 @@ add_action('wp_enqueue_scripts', 'register_assets');
 register_nav_menus(array(
     'main' => 'Menu_header',
     'aside' => 'Categories',
+    'contact' => 'Contact'
 ));
 
 function add_file_types_to_uploads($file_types)
