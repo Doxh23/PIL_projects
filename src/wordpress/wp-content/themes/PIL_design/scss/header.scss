@@ -89,7 +89,8 @@ body {
     border-bottom: 1px solid $grey2;
     list-style-type: none;
     mix-blend-mode: normal;
-    display: flex;
+    display: flex; 
+    z-index: 3;
 
   .social_nav__ul {
     padding: 1rem;
@@ -104,5 +105,4 @@ body {
   .social_nav__li a:visited {
     color: white;
   }
-
 }

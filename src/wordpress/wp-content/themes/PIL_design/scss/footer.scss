@@ -3,88 +3,88 @@ $border-default: $grey2 solid 1px;
 $border: $grey2 solid 1px;
 
 footer {
-    margin-left: 15rem;
-    background-color: $second-black;
-    padding: 1rem auto 0rem;
-    width: 100vw;
+  padding-left: 6rem;
+  background-color: $second-black;
+  padding: 1rem auto 0rem;
+  width: 100vw;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  p {
+    //BE WHITE PLEASE
+    //IM BEGGING YOU
     color: #ffffff;
-    font-size: 0.9375rem;
-    p {
-        //BE WHITE PLEASE
-        //IM BEGGING YOU
-        color: #ffffff;
+  }
+  .foot {
+    display: flex;
+    justify-content: center;
+    border-top: $border-default;
+    border-top: $border;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .big-txt {
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding-top: 3rem;
+    a:hover {
+      color: $yellow;
     }
-    .foot {
-        display: flex;
-        justify-content: center;
-        border-top: $border-default;
-        border-top: $border;
+  }
+  .footer-left {
+    flex-grow: 1;
+    height: 21.875rem;
+    margin-right: 6rem;
+    .tel {
+      align-self: flex-end;
+      width: 12rem;
+      height: 12rem;
+      line-height: 12rem;
+      border: $border-default;
+      border: $border;
+      border-radius: 50%;
+      text-align: center;
     }
-    a {
-        text-decoration: none;
-        color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-right {
+    margin-right: 15rem;
+    border-left: $border-default;
+    border-left: $border;
+    flex-grow: 1.3;
+    height: 21.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    ul {
+      margin-left: 6rem;
+      li {
+        padding-bottom: 1rem;
+      }
+      li:last-child {
+        padding-bottom: 0rem;
+      }
     }
-    .big-txt {
-        font-weight: 600;
-        font-size: 1.25rem;
-        padding-top: 3rem;
-        a:hover {
-            color: $yellow;
+    .smalls {
+      //margin-left: 6rem;
+      display: flex;
+      justify-content: space-between;
+      color: $grey3;
+      //WHY DON'T YOU TAKE THE FUCKING FONT WEIGHT
+      font-weight: 200;
+      .small-left {
+        margin-left: 6rem;
+      }
+      .small-right {
+        margin-right: 15rem;
+        a {
+          color: #ffffff;
         }
+      }
     }
-    .footer-left {
-        flex-grow: 1;
-        height: 21.875rem;
-        margin-right: 6rem;
-        .tel {
-            align-self: flex-end;
-            width: 12rem;
-            height: 12rem;
-            line-height: 12rem;
-            border: $border-default;
-            border: $border;
-            border-radius: 50%;
-            text-align: center;
-        }
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .footer-right {
-        padding-right: 15rem;
-        border-left: $border-default;
-        border-left: $border;
-        flex-grow: 1.3;
-        height: 21.875rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        ul {    
-            margin-left: 6rem;
-            li {
-                padding-bottom: 1rem;
-              }
-              li:last-child {
-               padding-bottom: 0rem;
-              }
-        }
-        .smalls {
-            //margin-left: 6rem;
-            display: flex;
-            justify-content: space-between;
-            color: $grey3;
-            //WHY DON'T YOU TAKE THE FUCKING FONT WEIGHT
-            font-weight: 200;
-            .small-left{
-                padding-left: 6rem;
-            }
-            .small-right{
-                margin-right: 15rem;
-                 a {
-                color: #ffffff;
-                }
-            }
-        }
-    }
+  }
 }
 //need to add responsive
