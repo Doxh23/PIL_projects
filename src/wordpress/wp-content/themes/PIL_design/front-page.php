@@ -54,39 +54,63 @@
         </div>
     </div>
 </section>
-<section id= "section-moving-text">
-<p id="moving-text"><?php the_field('grand_texte'); ?></p>
+<section id="section-moving-text">
+    <p id="moving-text"><?php the_field('grand_texte'); ?></p>
 </section>
 
 
 <section class="formation">
-<div class="image-formation">
-<img class="imgForma" src="<?php $image2 = get_field('image_formation');
- echo $image2['sizes']['large'];  ?>">
- </div>
- <div class="texte-formation">
-<p class="titre_formation"><?php the_field('titre_formation'); ?></p>
-<p class="introduction_formation"><?php the_field('introduction_formation'); ?></p>
-<p class="textes_formation"><?php the_field('texte_formation'); ?></p>
-<li class="listeforma"><?php the_field('listeforma'); ?></li>
+    <div class="image-formation">
+        <img class="imgForma" src="<?php $image2 = get_field('image_formation');
+                                    echo $image2['sizes']['large'];  ?>">
+    </div>
+    <div class="texte-formation">
+        <p class="titre_formation"><?php the_field('titre_formation'); ?></p>
+        <p class="introduction_formation"><?php the_field('introduction_formation'); ?></p>
+        <p class="textes_formation"><?php the_field('texte_formation'); ?></p>
+        <li class="listeforma"><?php the_field('listeforma'); ?></li>
 
 
-<?php
-if (have_rows('liste_formation')) : ?>
+        <?php
+        if (have_rows('liste_formation')) : ?>
 
-    <ul class="liste_formation">
-        <?php while (have_rows('liste_formation')) : the_row();
-        ?>
-            <li class="lifo"><?php the_sub_field('listeforma');?></li>
-        <?php endwhile; ?>
-    </ul>
-<?php endif; ?>
-<button class="btn-aca"><a class="a-aca"href="#">Voir le site ACA <span class="yellow">+</span></a></button>
+            <ul class="liste_formation">
+                <?php while (have_rows('liste_formation')) : the_row();
+                ?>
+                    <li class="lifo"><?php the_sub_field('listeforma'); ?></li>
+                <?php endwhile; ?>
+            </ul>
+        <?php endif; ?>
+        <button class="btn-aca"><a class="a-aca" href="#">Voir le site ACA <span class="yellow">+</span></a></button>
 
- </div>
+    </div>
 </section>
+<section class="liste-entreprises">
+    <div class="entreprises">
+        <p class="titre-entreprises">Les entreprises</p>
 
+        <?php
+        // the query
+        $wpb_all_query = new WP_Query(array('post_type' => 'post', 'post_status' => 'publish')); ?>
 
+        <?php if ($wpb_all_query->have_posts()) : ?>
 
+            <ul class="ul-entreprises">
+
+                <!-- the loop -->
+                <?php while ($wpb_all_query->have_posts()) : $wpb_all_query->the_post(); ?>
+                    <li class="li-entreprises"><a class="a-entreprises" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                <?php endwhile; ?>
+                <!-- end of the loop -->
+
+            </ul>
+
+            <?php wp_reset_postdata(); ?>
+
+        <?php else : ?>
+            <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+        <?php endif; ?>
+    </div>
+</section>
 
 <? get_footer(); ?>

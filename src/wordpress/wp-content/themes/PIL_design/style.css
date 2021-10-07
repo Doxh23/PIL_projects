@@ -864,20 +864,17 @@ footer .footer-right .smalls .small-right a {
   display: grid;
   grid-template-columns: repeat(auto-fit, 452px);
   grid-auto-rows: minmax(543px, 1fr);
-<<<<<<< HEAD
-  grid-gap: 20px; }
+  grid-gap: 20px;
+}
 
 .notre-equipe {
   margin-left: 13.64vw;
-  margin-top: 97px; }
-  .notre-equipe h3 {
-    margin-bottom: 80px;
-    font-size: 3.125rem; }
-=======
-  grid-gap: 20px;
-  margin-left: 13.64vw;
+  margin-top: 97px;
 }
->>>>>>> bd7845d67827d6355e5e5119e1d6b69cfb2900d7
+.notre-equipe h3 {
+  margin-bottom: 80px;
+  font-size: 3.125rem;
+}
 
 .member {
   display: flex;
@@ -922,19 +919,23 @@ footer .footer-right .smalls .small-right a {
   flex-direction: row;
   margin-top: 18.625rem;
   margin-left: 13.64vw;
-  height: 434px; }
+  height: 434px;
+}
 
 .actu-button {
   display: flex;
   flex-direction: row;
-  height: 434px; }
+  height: 434px;
+}
 
 .arrow-actu {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; }
-  .arrow-actu p {
-    font-size: 25px; }
+  justify-content: flex-end;
+}
+.arrow-actu p {
+  font-size: 25px;
+}
 
 .carte-actu {
   width: 452px;
@@ -942,11 +943,41 @@ footer .footer-right .smalls .small-right a {
   border: 1px solid red;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .content-carte-actu {
   width: 375.41px;
   height: 322px;
-  border: 1px solid black; }
+  border: 1px solid black;
+}
+
+.entreprises {
+  background-color: #000000;
+  padding: 3rem 0;
+}
+
+.titre-entreprises {
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 11rem;
+  margin-bottom: 35px;
+}
+
+.ul-entreprises {
+  columns: 4;
+  margin-left: 11rem;
+}
+
+.li-entreprises {
+  margin: 0% 20% 3% 0%;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.a-entreprises {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=style.css.map */
