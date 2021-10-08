@@ -430,6 +430,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 5.625rem;
+  color: #ffc33b;
 }
 .secteur-accordion .accordions-button .titre-accordions {
   display: flex;
@@ -440,6 +441,7 @@ body {
   font-size: 5.625rem;
   color: #ffffff;
   margin-bottom: 2.125rem;
+  font-weight: lighter;
 }
 
 .petit-titre-accordeons {

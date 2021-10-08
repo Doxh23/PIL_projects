@@ -60,7 +60,7 @@
                                 <?php if (have_rows('list_accordeons_espace')) : ?>
                                     <ul>
                                         <?php while (have_rows('list_accordeons_espace')) : the_row() ?>
-                                            <li> + <?php the_sub_field('el_list_accordeons') ?></li>
+                                            <li><span class="yellow">+ </span> <?php the_sub_field('el_list_accordeons') ?></li>
 
                                         <?php endwhile ?>
                                     </ul> <?php endif ?>
