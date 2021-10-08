@@ -18,7 +18,28 @@
     }
 
     //Menu des catégories
-
+    .cat{
+        padding-top: 5rem;
+        padding-left: 4rem;
+        .cat__li{
+            padding-top: 0.5rem;
+            
+            img{
+                padding-right: 0.5rem;
+            }
+        }
+    }
+    .cat__children{
+        padding-top: 0.5rem;
+        padding-left: 1.5rem;
+        .cat__child{
+            padding-top: 0.5rem;
+            color: rgba(225, 225, 225, 0.4);
+            .child__input {
+                background-color: $grey2;
+            }
+        }
+    }
 }
 
 .droite{
@@ -32,7 +53,7 @@
         #s{
             padding:0.5rem ;
             width: 45rem;
-            background-color: $second-black;
+            background-color: transparent;
             border: 1px solid $grey2;
             border-radius: 15px;
             color: white;
@@ -42,7 +63,7 @@
         #searchsubmit{
             padding-left:0.5rem;
             border: none;
-            background-color: $second-black;
+            background-color: transparent;
             color: white;
         }
     
@@ -60,7 +81,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-end;   
-            background-color: $second-black;
+            background-color: transparent;
             border: none;
             border-bottom:1px solid $grey2;
 

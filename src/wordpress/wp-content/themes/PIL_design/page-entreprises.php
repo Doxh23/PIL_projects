@@ -6,42 +6,11 @@
 
 <? get_header(); ?>
 
-<?php 
-// 1. On définit les arguments pour définir ce que l'on souhaite récupérer
-$args = array(
-    'post_type' => 'post',
-    'category_name' => 'films',
-    'posts_per_page' => 3,
-);
-
-// 2. On exécute la WP Query
-$my_query = new WP_Query( $args );
-
-// 3. On lance la boucle !
-if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();
-    
-    the_title();
-    the_content();
-    the_post_thumbnail();
-
-endwhile;
-endif;
-
-// 4. On réinitialise à la requête principale (important)
-wp_reset_postdata();
-
-?>
-
-
-
-
-
-
 <section class="secteurs">
         <div class="gauche">
                 <h1><? the_title();?></h1>
                 
-                <ul>   
+                <ul class="cat">   
         <?php 
             $get_parent_cats = array(
                 'parent' => '0' //get top level categories only
@@ -53,41 +22,22 @@ wp_reset_postdata();
                 //for each category, get the ID
                 $catID = $single_category -> cat_ID;
 
-                echo '<li><a href=" ' . get_category_link( $catID ) . ' ">' . $single_category -> name . '</a>'; //category name & link
-                 echo '<ul class="post-title">';
-
-                $query = new WP_Query( array( 'cat'=> $catID, 'posts_per_page'=>10 ) );
-                while( $query->have_posts() ):$query->the_post();
-                 echo '<li><a href="'.get_the_permalink().'">'.get_the_title().'</a></li>';
-                endwhile;
-                wp_reset_postdata();
-
-                echo '</ul>';
+                echo '<li class="cat__li"><img src="http://localhost/wordpress/wp-content/uploads/2021/09/add.svg" alt="cross image">' . $single_category -> name .'</li>'; //category name
+                
                 $get_children_cats = array(
                     'child_of' => $catID //get children of this parent using the catID variable from earlier
                 );
 
                 $child_cats = get_categories( $get_children_cats );//get children of parent category
-                echo '<ul class="children">';
+                echo '<ul class="cat__children">';
                     foreach( $child_cats as $child_cat ){
                         //for each child category, get the ID
                         $childID = $child_cat -> cat_ID;
 
-                        //for each child category, give us the link and name
-                        echo '<a href=" ' . get_category_link( $childID ) . ' ">' . $child_cat->name . '</a>';
-
-                         echo '<ul class="post-title">';
-
-                        $query = new WP_Query( array( 'cat'=> $childID, 'posts_per_page'=>10 ) );
-                        while( $query -> have_posts() ):$query -> the_post();
-                         echo '<li><a href="'.get_the_permalink().'">'.get_the_title().'</a></li>';
-                        endwhile;
-                        wp_reset_postdata();
-
-                        echo '</ul>';
-
+                        //for each child category, give us the name
+                        echo '<li class="cat__child"><input class="child__input" type="checkbox">' . $child_cat->name . '</li>';
                     }
-                echo '</ul></li>';
+                echo '</ul>';
             } //end of categories logic ?>
     </ul>
 
