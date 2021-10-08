@@ -1,0 +1,197 @@
+body {
+  overflow-x: hidden;
+}
+.espace-titre {
+  display: flex;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  width: 100vw;
+  height: 40.43rem;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 5.6rem;
+    text-align: center;
+  }
+}
+.img-espace {
+  display: flex;
+  margin: auto;
+  overflow-x: hidden;
+  img {
+    width: 72.08vw;
+    margin: auto;
+    margin-bottom: 8rem;
+  }
+}
+.espace-mask-group {
+  overflow-x: hidden;
+  img {
+    width: 100vw;
+  }
+}
+.espace-rubrique {
+  width: 100vw;
+  height: 47.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  h2 {
+    font-size: 5.6rem;
+    margin-bottom: 1.875rem;
+  }
+}
+.espace-reserver {
+  width: 28.1875rem;
+  display: flex;
+  flex-direction: column;
+  p {
+    line-height: 3rem;
+  }
+}
+.img-espace-reserver {
+  width: 16.375rem;
+  font-size: 1.25rem;
+  height: 2.9375rem;
+  justify-content: center;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 26px;
+  text-decoration: none;
+  &:visited{
+      color: inherit;
+
+  }
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+.espace-production{
+    background-color: $second-black;
+   
+  
+}
+.nos-productions{
+  display: flex;
+  align-items:flex-end;
+  flex-direction: row;
+  height: 49.125rem;
+  width: 72.708vw;
+  margin: auto;
+  .title-production{
+    margin-bottom: 10.156rem;
+    text-align: left;
+
+  }
+    h2{
+      color: $white;
+      font-size: 5.625rem;
+
+    }
+    .text-production{
+      text-align: left;
+      margin-bottom: 10.156rem;
+      width: 40.83vw;
+
+
+    }
+    p{
+      color: $white;
+      font-size: 1.25rem;
+      letter-spacing: 0.4px;
+      line-height: 35px;
+      width: 70%;
+
+
+    }
+}
+
+.secteur-accordion{
+  background-color: $second-black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  .accordions-button{
+    width: 72.708vw;
+    height: 8.4375rem;
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(65, 51, 51, 0.4);
+    justify-content: space-between;
+    .accordeons-plus{
+      display: flex;
+      align-items: center;
+      font-size: 5.625rem;
+    }
+    .titre-accordions{
+      display: flex;
+    justify-content: start;
+    align-items: flex-start;
+   
+h3 {
+  font-size: 5.625rem;
+  color:$white;
+  margin-bottom: 2.125rem;
+}
+
+    }
+  }
+}
+.petit-titre-accordeons{
+  margin-bottom: 2.125rem;
+  font-size: 1.5rem;
+}
+.accordeons-espace{
+  padding-bottom: 14.31rem;
+  
+}
+.secteur-accordeons-espace{
+  background-color: $second-black;
+  background-size: cover;
+}
+.content-accord{
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 72.708vw;
+  margin: auto;
+  margin-top: 5rem;
+  ul{
+    columns: 2;
+  }
+}
+.text-accord{
+  width: 24.47vw;
+  p{
+    color: $white;
+  }
+}
+.liste-espace{
+  color: $white;
+}
+.spintch{
+  background:url('resources/images/Mask Group 93@2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 41.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  .contenue-spintch{
+    margin-left: 13.59vw;
+    max-width: 924px;
+    h2{
+      font-size: 3.125rem;
+    }
+    h3{
+      font-size: 1.5rem;
+    }
+  }
+}
