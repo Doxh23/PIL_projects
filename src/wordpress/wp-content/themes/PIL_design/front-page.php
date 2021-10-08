@@ -58,28 +58,36 @@
     <p id="moving-text"><?php the_field('grand_texte'); ?></p>
 </section>
 <section class="projet_digital">
-    <p>Vous avez un projet audiovisuel ou digital ?</p>
-    <p>Une entreprise du Pôle peut vous aider !</p>
-    <div class="cards">
-
+    <p class="main-title-digital">Vous avez un projet <br> <span class="yellow"> audiovisuel ou digital ?</span></p>
+    <p class="second-title-digital">Une entreprise du Pôle peut vous aider !</p>
+    <div class="cards-container">
+        <div class="card">
+            <img class="logo-digital" src="wp-content/themes/PIL_design/resources/svg/cat-image.svg" alt="Image">
+            <p class="titre-digital">Image <span class="yellow">(14)</span></p>
+        </div>
+        <div class="card">
+            <img class="logo-digital" src="wp-content/themes/PIL_design/resources/svg/cat-ar-vr.svg" alt="Image">
+            <p class="titre-digital">Ar / Vr <span class="yellow">(5)</span></p>
+        </div>
+        <div class="card">
+            <img class="logo-digital" src="wp-content/themes/PIL_design/resources/svg/cat-son.svg" alt="Image">
+            <p class="titre-digital">Son <span class="yellow">(8)</span></p>
+        </div>
+        <div class="card">
+            <img class="logo-digital" src="wp-content/themes/PIL_design/resources/svg/cat-digital.svg" alt="Image">
+            <p class="titre-digital">Digital <span class="yellow">(23)</span></p>
+        </div>
+        <div class="card">
+            <img class="logo-digital" src="wp-content/themes/PIL_design/resources/svg/cat-digital (2).svg" alt="Image">
+            <p class="titre-digital">Digital <span class="yellow">(23)</span></p>
+        </div>
+        <div class="card">
+            <div class="last-card">
+                <img class="logo-arrow-transparent" src="wp-content/themes/PIL_design/resources/svg/cat-digital copy.svg" alt="Image">
+                <p class="last-card-p">Voir toutes <br>les entreprises</p>
+            </div>
+        </div>
     </div>
-    <div class="cards">
-        
-
-    </div>
-    <div class="cards">
-
-    </div>
-    <div class="cards">
-
-    </div>
-    <div class="cards">
-
-    </div>
-    <div class="last-card">
-
-    </div>
-
 </section>
 
 <section class="formation">
