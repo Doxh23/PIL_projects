@@ -14,12 +14,13 @@
         justify-content: space-between;
         text-align: center;
         .iti {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             .itinerary {
                 border-radius: 5rem;
                 padding: 0.5rem 0rem;
                 margin-top: 2rem;
                 a {
+                    font-size: 1.2rem;
                     text-decoration: none;
                     color: inherit;
                     padding: 0.5rem 1rem;
@@ -47,12 +48,14 @@
     .contact-right {
         //need the map on the bottom & larger
         margin-left: 8rem;
-        flex-grow: 1.6;
+        flex-grow: 1.5;
         display: flex;
         flex-flow: column;
+        justify-content: space-between;
         .contact-contact {
-            font-size: 3rem;
+            font-size: 2.2rem;
             font-weight: 300;
+            margin: 5rem auto;
             a {
                 text-decoration: none;
                 color: inherit;
@@ -64,6 +67,9 @@
                     font-size: 2rem;
                 }
             }
+        }
+        .map {
+            filter: grayscale(100);
         }
     }
 }
