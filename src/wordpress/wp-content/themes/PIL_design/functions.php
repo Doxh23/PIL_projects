@@ -14,8 +14,7 @@ function register_assets()
     wp_enqueue_script("test",get_theme_file_uri('./js/accordeons-espace.js'),null,microtime(),true);
     wp_enqueue_script("script", get_theme_file_uri('./js/secteur_accordion.js'), null, microtime(),true);
     wp_enqueue_style('fontawesome','https://use.fontawesome.com/releases/v5.15.4/css/all.css');
-
-
+    wp_enqueue_script("script", get_theme_file_uri('./js/cookie.js'), null, microtime(), true);
 }
 
 //appeller la liaison entre css et php
@@ -35,6 +34,7 @@ add_action('wp_enqueue_scripts', 'register_assets');
 register_nav_menus(array(
     'main' => 'Menu_header',
     'aside' => 'Categories',
+    'contact' => 'Contact'
 ));
 
 function add_file_types_to_uploads($file_types)
