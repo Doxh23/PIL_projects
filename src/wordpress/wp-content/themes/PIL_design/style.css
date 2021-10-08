@@ -700,36 +700,41 @@ footer .footer-right .smalls .small-right a {
   padding-left: 7rem;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .gauche {
   border-right: 1px solid #4b4b4b;
   width: 20rem;
+  position: relative;
 }
-.gauche h1 {
+.gauche .test {
+  position: fixed;
+}
+.gauche .test h1 {
   font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
 }
-.gauche .cat {
+.gauche .test .cat {
   padding-top: 5rem;
   padding-left: 4rem;
 }
-.gauche .cat .cat__li {
+.gauche .test .cat .cat__li {
   padding-top: 0.5rem;
 }
-.gauche .cat .cat__li img {
+.gauche .test .cat .cat__li img {
   padding-right: 0.5rem;
 }
-.gauche .cat__children {
+.gauche .test .cat__children {
   padding-top: 0.5rem;
   padding-left: 1.5rem;
 }
-.gauche .cat__children .cat__child {
+.gauche .test .cat__children .cat__child {
   padding-top: 0.5rem;
   color: rgba(225, 225, 225, 0.4);
 }
-.gauche .cat__children .cat__child .child__input {
+.gauche .test .cat__children .cat__child .child__input {
   background-color: #4b4b4b;
 }
 

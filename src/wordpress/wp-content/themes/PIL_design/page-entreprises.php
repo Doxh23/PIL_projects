@@ -8,6 +8,7 @@
 
 <section class="secteurs">
         <div class="gauche">
+                <div class="test">
                 <h1><? the_title();?></h1>
                 
                 <ul class="cat">   
@@ -40,7 +41,7 @@
                 echo '</ul>';
             } //end of categories logic ?>
     </ul>
-
+                </div>
         </div>
 
         <div class="droite">
