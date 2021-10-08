@@ -14,3 +14,8 @@ $grey2: #4b4b4b;
 $grey3: #656565;
 $grey4: #777777;
 $yellow: #ffc33b;
+
+//borders
+$border-default: $grey3 solid 0.0625rem;
+//rgba not valid on all browser, need alt
+$border: rgba(255, 255, 255, .8) solid 0.0625rem;

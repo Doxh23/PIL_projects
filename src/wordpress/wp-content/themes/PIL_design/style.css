@@ -1380,3 +1380,21 @@ footer .footer-right .smalls .small-right a {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* Error: Expected identifier.
+ *    ,
+ * 30 |                         margin-bottom: _0.2rem;
+ *    |                                           ^
+ *    '
+ *   src/wordpress/wp-content/themes/PIL_design/scss/contact.scss 30:43  @import
+ *   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 14:9    root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected identifier.\a    \2577 \a 30 \2502                          margin-bottom: _0.2rem;\a    \2502                                            ^\a    \2575 \a   src/wordpress/wp-content/themes/PIL_design/scss/contact.scss 30:43  @import\a   src/wordpress/wp-content/themes/PIL_design/scss/screen.scss 14:9    root stylesheet";
+}
