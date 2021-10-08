@@ -335,6 +335,7 @@ body {
 }
 
 .espace-rubrique {
+  margin-left: 11rem;
   width: 100vw;
   height: 47.75rem;
   display: flex;
