@@ -86,24 +86,60 @@ justify-content: space-between;
         margin: 10px;
     }
 }
+.section-actu {
+    height: 434px;
+    position: relative;
+}
 .actu-pole{
     display: flex;
     flex-direction: row;
-    margin-top: 18.625rem;
-    margin-left: 13.64vw;
+    position: absolute;
+    bottom: -42%;
+    left: 20%;
     height: 434px;
 }
+.comment-pole{
+    min-width: 452px;
+    overflow-x: hidden;
+    height: 434px;
+    display: flex;
+    flex-direction: row;
 
+}
+.comment-pole::-webkit-scrollbar {
+    width: 452px;
+    height: 10px;
+    z-index: 4;
+  }
+  .comment-pole::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  .comment-pole::-webkit-scrollbar-track {
+    background: transparent;
+  }
 .actu-button {
     display: flex;
     flex-direction: row;
     height: 434px;
+    .actualité-actu{
+        width: 17.39vw;
+        font-size: 50px;
+
+    }
 
 }
 .arrow-actu{
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
+margin-right: 5.19vw;
+i{
+    font-size: 25px;
+width: 35px;
+height: 36px;
+color:yellow;
+}
 p{
    font-size: 25px; 
 }
@@ -111,13 +147,85 @@ p{
 .carte-actu{
     width: 452px;
     height: 434px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: $third-black;
+    margin: 0 20px;
+    
 }
 .content-carte-actu{
     width: 375.41px;
     height: 322px;
-    border: 1px solid black;
+    p{
+        color: white;
+    }
 }
+.date-carte-actu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 61%;
+    img{
+        height: 46px;
+        color: white
+    };
+    
+}
+.comment-carte-actu{
+    border-top: 1px solid rgba(255, 252, 252,0.2);
+    line-height: 35px;
+    font-size: 20px;
+    p{
+        margin-top: 25px;
+
+    }
+}
+.img-espace-reserver {
+    
+    width: 169px;
+    font-size: 1.25rem;
+    height: 2.9375rem;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 26px;
+    text-decoration: none;
+    
+    &:visited{
+        color: inherit;
+  
+    }
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+}
+.spintch-pole{
+    background:url('resources/images/Mask Group 93@2x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 41.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    .contenue-spintch{
+      margin-left: 13.59vw;
+      max-width: 924px;
+      h2{
+        font-size: 3.125rem;
+      }
+      h3{
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .pole-vide{
+      height: 408px;
+      background-color: $second-black;
+  }

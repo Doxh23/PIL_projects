@@ -12,7 +12,7 @@
 </div>
 <div class="espace-reserver">
     <p><?php the_field('texte_wysiwyg') ?></p>
-    <a class="img-espace-reserver" href="">reservez vos places  <img src="http://localhost/wordpress/wp-content/uploads/2021/09/add.svg" alt=""></a></div>
+    <a class="img-pole-reserver" href="">reservez vos places  <img src="http://localhost/wordpress/wp-content/uploads/2021/09/add.svg" alt=""></a></div>
 
 
 </div>

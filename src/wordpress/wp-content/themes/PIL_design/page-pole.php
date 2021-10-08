@@ -49,40 +49,97 @@ else{ ?>
 <?php endwhile;endif ?>
 </div>
 </section>
-<section class="actu-pole">
+<section class="section-actu">
+<div class="actu-pole">
 <div class="actu-button">
-    <div>
+    <div class="actualité-actu">
     <h3>Actualité</h3>
-    <button>suivez nous</button>
+    <a class="img-espace-reserver" href="">suivez-nous <i class="fab fa-facebook-f"></i></a>
+
     </div>
     <div class="arrow-actu">
-    <button> -> </button>
-    <button> <- </button>
+    <i class="fas fa-arrow-right"></i>
+    <i class="fas fa-arrow-left"></i>
     </div>
 </div>
-
+<div class="comment-pole">
 <div class="carte-actu">
     <div class="content-carte-actu">
     <div class="date-carte-actu"> 
-        <p>
+        <p>14 juillet 2021
         </p>
-        <img src="" alt="">
+        <img src="http://localhost/wordpress/wp-content/uploads/2021/09/cat-digital.svg" alt="">
     </div>
     <div class="comment-carte-actu">
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis deleniti saepe sequi error voluptatem.</p>
 
     </div>
     </div>
+</div>
+<div class="carte-actu">
+    <div class="content-carte-actu">
+    <div class="date-carte-actu"> 
+        <p>14 juillet 2021
+        </p>
+        <img src="http://localhost/wordpress/wp-content/uploads/2021/09/cat-digital.svg" alt="">
+    </div>
+    <div class="comment-carte-actu">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis deleniti saepe sequi error voluptatem.</p>
+
+    </div>
+    </div>
+</div>
+<div class="carte-actu">
+    <div class="content-carte-actu">
+    <div class="date-carte-actu"> 
+        <p>14 juillet 2021
+        </p>
+        <img src="http://localhost/wordpress/wp-content/uploads/2021/09/cat-digital.svg" alt="">
+    </div>
+    <div class="comment-carte-actu">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis deleniti saepe sequi error voluptatem.</p>
+
+    </div>
+    </div>
+</div>
+<div class="carte-actu">
+    <div class="content-carte-actu">
+    <div class="date-carte-actu"> 
+        <p>14 juillet 2021
+        </p>
+        <img src="http://localhost/wordpress/wp-content/uploads/2021/09/cat-digital.svg" alt="">
+    </div>
+    <div class="comment-carte-actu">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis deleniti saepe sequi error voluptatem.</p>
+
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
 </div>
 </section>
 
+
+</div>
+<div class="pole-vide">
+
 </div>
 
-
-<div>
-    <h3></h3>
-    <h2></h2>
-</div>
+<div class="spintch-pole">
+        <div class="contenue-spintch">
+        <h4><?php   the_field('petit_titre_cta','options')  ?></h4>
+        <h2><?php   the_field('grand_titre_cta','options')?></h2>
+        </div>
+    </div>
 
 
 

@@ -13,6 +13,8 @@ function register_assets()
     wp_enqueue_script('moving-text', get_theme_file_uri('./js/moving-text.js'), null, microtime(), true);
     wp_enqueue_script("test",get_theme_file_uri('./js/accordeons-espace.js'),null,microtime(),true);
     wp_enqueue_script("script", get_theme_file_uri('./js/secteur_accordion.js'), null, microtime(),true);
+    wp_enqueue_style('fontawesome','https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
 
 }
 
