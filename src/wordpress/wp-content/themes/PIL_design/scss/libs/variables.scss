@@ -1,0 +1,21 @@
+//Media Queries
+$xl-width: 1400px;
+$large-width: 1140px;
+$medium-width: 960px;
+$small-width: 768px;
+
+//color
+$main-color: #000000;
+$second-black: #171717;
+$third-black: #212121;
+$white: #ffffff;
+$grey1: #707070;
+$grey2: #4b4b4b;
+$grey3: #656565;
+$grey4: #777777;
+$yellow: #ffc33b;
+
+//borders
+$border-default: $grey3 solid 0.0625rem;
+//rgba not valid on all browser, need alt
+$border: rgba(255, 255, 255, .8) solid 0.0625rem;

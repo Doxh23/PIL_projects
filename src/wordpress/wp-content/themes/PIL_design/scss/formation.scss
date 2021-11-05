@@ -1,0 +1,50 @@
+.formation {
+  height: 800px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 11rem;
+}
+.imgForma {
+  width: 29.55vw;
+}
+.liste_formation {
+  columns: 2;
+  list-style-type: none;
+}
+.lifo:before {
+  content: "+";
+  padding-right: 5px;
+  color: $yellow;
+  display: inline-block;
+}
+
+.listeforma {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.texte-formation {
+  width: 34.79vw;
+}
+.titre_formation {
+  font-size: 90px;
+  color: $second-black;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.introduction_formation {
+  font-size: 24px;
+  color: $second-black;
+}
+.textes_formation {
+  font-size: 20px;
+  color: $second-black;
+  margin-bottom: 2rem;
+}
+.listeforma {
+  font-size: 18px;
+  color: $second-black;
+  margin-top: 4rem;
+}

@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'vorkurlight';
+					src: url('/wordpress/wp-content/uploads/useanyfont/5621VorkurLight.woff2') format('woff2'),
+						url('/wordpress/wp-content/uploads/useanyfont/5621VorkurLight.woff') format('woff');
+				}
+
+				.vorkurlight{font-family: 'vorkurlight' !important;}
+
+				.et_gf_vorkurlight{background:none !important;font-family:vorkurlight;text-indent:0 !important;font-size:25px;}
+
+		

@@ -1,0 +1,75 @@
+.contact {
+    padding-top: 5rem;
+    padding-left: 7rem;
+    background-color: $second-black;
+    color: $white;
+    display: flex;
+    .contact-left {
+        height: 60rem;
+        flex-grow: 1;
+        border-right: $border-default;
+        border-right: $border;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        text-align: center;
+        .iti {
+            font-size: 1.2rem;
+            .itinerary {
+                border-radius: 5rem;
+                padding: 0.5rem 0rem;
+                margin-top: 2rem;
+                a {
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                    color: inherit;
+                    padding: 0.5rem 1rem;
+                    img {
+                        height: 1rem;
+                        filter: invert(91%) sepia(26%) saturate(4538%) hue-rotate(329deg) brightness(110%) contrast(102%);
+                        margin-bottom: 0.2rem;
+                        //get lower you son of a bit
+                    }
+                }
+                a:hover {
+                    color: $yellow;
+                    img {
+                        filter: invert(0%) sepia(4%) saturate(7486%) hue-rotate(176deg) brightness(99%) contrast(105%);
+                    }
+                }
+            }
+        }
+        h3 {
+            margin-top: 4rem;
+            font-size: 3rem;
+            font-weight: 800;
+        }
+    }
+    .contact-right {
+        //need the map on the bottom & larger
+        margin-left: 8rem;
+        flex-grow: 1.5;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        .contact-contact {
+            font-size: 2.2rem;
+            font-weight: 300;
+            margin: 5rem auto;
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+            .tel {
+                display: flex;
+                .plus {
+                    color: $yellow;
+                    font-size: 2rem;
+                }
+            }
+        }
+        .map {
+            filter: grayscale(100);
+        }
+    }
+}

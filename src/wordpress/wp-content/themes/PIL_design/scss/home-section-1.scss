@@ -1,0 +1,56 @@
+// @font-face {
+//   font-family: "II Vorkurs";
+//   src: url("/fonts/") format("woff2"),
+//     url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+// }
+
+.sectionOne {
+  background-color: black;
+  overflow-x: hidden;
+}
+.punch-line {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+
+  font-size: 5.62rem;
+  color: white;
+  margin-left: 13rem;
+  width: 60%;
+}
+
+.bureaux-PI {
+  margin-left: 13rem;
+  width: 100vw;
+}
+.image-fleche {
+  margin-top: 2rem;
+  height: 700px;
+}
+.fleche-bas {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -120px;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10rem;
+  padding: 5rem;
+}
+#box {
+  position: relative;
+}
+#tooltip {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: #ffc33b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#box:hover #tooltip {
+  opacity: 1;
+}
